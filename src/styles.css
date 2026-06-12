@@ -1,0 +1,245 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent-blue: var(--accent-blue);
+  --color-accent-silver: var(--accent-silver);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-success: var(--success);
+
+  --font-display: "Orbitron", "Space Grotesk", system-ui, sans-serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+:root {
+  --radius: 0.25rem;
+  /* Deep aerospace dark theme */
+  --background: oklch(0.08 0.012 250);
+  --foreground: oklch(0.98 0.005 250);
+  --surface: oklch(0.11 0.015 250);
+  --surface-elevated: oklch(0.14 0.018 250);
+
+  --card: oklch(0.12 0.016 250);
+  --card-foreground: oklch(0.97 0.005 250);
+  --popover: oklch(0.11 0.016 250);
+  --popover-foreground: oklch(0.97 0.005 250);
+
+  --primary: oklch(0.98 0.005 250);
+  --primary-foreground: oklch(0.08 0.012 250);
+
+  --accent-blue: oklch(0.62 0.18 245);
+  --accent-silver: oklch(0.78 0.012 250);
+
+  --secondary: oklch(0.18 0.018 250);
+  --secondary-foreground: oklch(0.96 0.005 250);
+  --muted: oklch(0.16 0.016 250);
+  --muted-foreground: oklch(0.80 0.018 250);
+  --accent: oklch(0.62 0.18 245);
+  --accent-foreground: oklch(0.98 0.005 250);
+  --destructive: oklch(0.62 0.22 25);
+  --destructive-foreground: oklch(0.98 0 0);
+  --success: oklch(0.72 0.18 155);
+
+  --border: oklch(1 0 0 / 8%);
+  --border-strong: oklch(1 0 0 / 16%);
+  --input: oklch(1 0 0 / 12%);
+  --ring: oklch(0.62 0.18 245);
+
+  --gradient-hero: linear-gradient(180deg, oklch(0.08 0.012 250 / 0) 0%, oklch(0.08 0.012 250 / 0.6) 60%, oklch(0.08 0.012 250) 100%);
+  --gradient-silver: linear-gradient(135deg, oklch(0.95 0.005 250) 0%, oklch(0.72 0.012 250) 50%, oklch(0.95 0.005 250) 100%);
+  --gradient-blue-glow: radial-gradient(circle at 50% 0%, oklch(0.62 0.18 245 / 0.35), transparent 60%);
+  --shadow-glow: 0 0 60px oklch(0.62 0.18 245 / 0.25);
+  --shadow-elevated: 0 20px 60px -20px oklch(0 0 0 / 0.6);
+}
+
+.dark { color-scheme: dark; }
+
+@layer base {
+  * { border-color: var(--color-border); }
+  html { color-scheme: dark; }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% -20%, oklch(0.62 0.18 245 / 0.15), transparent 70%),
+      radial-gradient(ellipse 60% 40% at 80% 100%, oklch(0.62 0.18 245 / 0.08), transparent 70%);
+    background-attachment: fixed;
+  }
+  body { font-size: 16px; line-height: 1.65; font-feature-settings: "ss01", "cv11"; }
+  p { line-height: 1.7; color: var(--color-foreground); }
+  p + p { margin-top: 0.9em; }
+  /* All headings default to the highly-readable sans. The futuristic display font
+     is OPT-IN via `.font-display` and reserved for hero headlines + major section titles. */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    line-height: 1.2;
+  }
+  h1 { font-weight: 700; line-height: 1.1; letter-spacing: -0.025em; }
+  h2 { font-weight: 700; line-height: 1.15; letter-spacing: -0.02em; }
+  .font-display {
+    font-family: var(--font-display) !important;
+    letter-spacing: -0.01em;
+    line-height: 1.05;
+  }
+  label, button, input, select, textarea { font-family: var(--font-sans); }
+  input, select, textarea { font-size: 0.9375rem; }
+  /* Tabular numbers everywhere numerical data is shown */
+  .tabular-nums, [class*="font-mono"] { font-variant-numeric: tabular-nums; }
+  :focus-visible { outline: 2px solid var(--color-accent-blue); outline-offset: 2px; border-radius: 2px; }
+  ::selection { background: oklch(0.62 0.18 245 / 0.4); }
+  /* RTL refinements */
+  [dir="rtl"] .font-mono { letter-spacing: 0.15em; }
+}
+
+@utility glass-panel {
+  background: linear-gradient(180deg, oklch(1 0 0 / 0.04), oklch(1 0 0 / 0.01));
+  border: 1px solid var(--color-border);
+  backdrop-filter: blur(20px);
+}
+
+@utility glass-card {
+  background: linear-gradient(180deg, oklch(1 0 0 / 0.05), oklch(1 0 0 / 0.015));
+  border: 1px solid var(--color-border);
+  backdrop-filter: blur(20px);
+  border-radius: 0.5rem;
+  transition: border-color .3s ease, transform .3s ease, box-shadow .3s ease;
+}
+@utility glass-card-hover {
+  &:hover {
+    border-color: var(--color-border-strong);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-elevated);
+  }
+}
+
+@utility silver-text {
+  background: var(--gradient-silver);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@utility hero-overlay {
+  background: var(--gradient-hero);
+}
+
+@utility blue-glow {
+  box-shadow: var(--shadow-glow);
+}
+
+@utility starfield {
+  background-image:
+    radial-gradient(1px 1px at 20px 30px, oklch(1 0 0 / 0.6), transparent),
+    radial-gradient(1px 1px at 40px 70px, oklch(1 0 0 / 0.4), transparent),
+    radial-gradient(1px 1px at 90px 40px, oklch(1 0 0 / 0.5), transparent),
+    radial-gradient(1px 1px at 130px 80px, oklch(1 0 0 / 0.3), transparent),
+    radial-gradient(2px 2px at 160px 120px, oklch(1 0 0 / 0.5), transparent),
+    radial-gradient(1px 1px at 200px 50px, oklch(1 0 0 / 0.4), transparent);
+  background-size: 220px 160px;
+  background-repeat: repeat;
+}
+
+@utility container-x {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+  max-width: 80rem;
+  @media (min-width: 768px) { padding-inline: 2rem; }
+}
+
+@utility section-y {
+  padding-block: 5rem;
+  @media (min-width: 768px) { padding-block: 7rem; }
+}
+
+@utility btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  padding: 0.75rem 1.5rem;
+  background: var(--color-foreground);
+  color: var(--color-background);
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.9375rem;
+  letter-spacing: 0.01em;
+  border-radius: 0.375rem;
+  transition: all .25s ease;
+  &:hover { background: var(--color-accent-blue); color: oklch(0.98 0.005 250); box-shadow: var(--shadow-glow); }
+}
+@utility btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid var(--color-border-strong);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.9375rem;
+  letter-spacing: 0.01em;
+  border-radius: 0.375rem;
+  transition: all .25s ease;
+  &:hover { border-color: var(--color-accent-blue); color: var(--color-accent-blue); }
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+@keyframes drift {
+  from { background-position: 0 0; }
+  to { background-position: 220px 160px; }
+}
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+@utility animate-fade-up { animation: fade-up .8s ease-out both; }
+@utility animate-float { animation: float-slow 6s ease-in-out infinite; }
+@utility animate-drift { animation: drift 120s linear infinite; }
+@utility animate-pulse-glow { animation: pulse-glow 3s ease-in-out infinite; }

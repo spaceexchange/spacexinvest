@@ -1,0 +1,518 @@
+{
+  "nav": {
+    "home": "首页",
+    "spacex": "SpaceX 上市",
+    "teslaStock": "特斯拉股票",
+    "vehicles": "车辆",
+    "starlink": "星链",
+    "news": "新闻",
+    "education": "教育",
+    "about": "关于",
+    "contact": "联系",
+    "faq": "常见问题"
+  },
+  "cta": {
+    "investNow": "立即投资",
+    "contact": "联系",
+    "buyShares": "购买 SpaceX 股份",
+    "explore": "探索特斯拉与星链",
+    "tradeTsla": "交易 TSLA",
+    "configureTesla": "配置一辆特斯拉",
+    "exploreStarlink": "探索星链",
+    "beginAllocation": "开始配售",
+    "talkAdvisor": "咨询顾问",
+    "readThesis": "阅读完整论点",
+    "allNews": "所有新闻",
+    "browseFaq": "浏览所有问题",
+    "requestAccess": "申请访问",
+    "createAccount": "Create Investor Account",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "signUp": "Create account",
+    "login": "Login",
+    "loginToInvest": "Login to invest",
+    "investorPortal": "Investor Portal",
+    "security": "Security",
+    "backToSite": "← Back to site",
+    "goToPortal": "Go to Investor Portal"
+  },
+  "common": {
+    "search": "搜索",
+    "searchPlaceholder": "搜索 SpaceX、特斯拉、星链…",
+    "menu": "菜单",
+    "language": "语言",
+    "country": "国家",
+    "selectLanguage": "选择语言",
+    "selectCountry": "选择国家",
+    "loading": "加载中…",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving…",
+    "submitting": "Submitting…",
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "copy": "Copy",
+    "copied": "Copied",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "export": "Export",
+    "exportCsv": "Export CSV",
+    "viewAll": "View all",
+    "all": "All",
+    "details": "Details",
+    "status": "Status",
+    "date": "Date",
+    "amount": "Amount",
+    "type": "Type",
+    "ref": "Ref",
+    "balance": "Balance",
+    "available": "Available",
+    "pending": "Pending",
+    "completed": "Completed",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "paid": "Paid",
+    "unpaid": "Unpaid",
+    "noResults": "No results.",
+    "required": "Required",
+    "optional": "Optional",
+    "error": "Error",
+    "success": "Success",
+    "tryAgain": "Try again",
+    "filters": "Filters",
+    "showMore": "Show more",
+    "showLess": "Show less"
+  },
+  "footer": {
+    "tagline": "领先的数字门户,通往 SpaceX 上市前股票、特斯拉股权、车辆与星链服务 — 为新一代投资者打造。",
+    "cols": {
+      "invest": "投资",
+      "commerce": "商业",
+      "company": "公司",
+      "legal": "法律"
+    },
+    "links": {
+      "spacexIpo": "SpaceX 上市",
+      "teslaStock": "特斯拉股票",
+      "whyInvest": "投资理由",
+      "education": "投资者教育",
+      "teslaVehicles": "特斯拉车型",
+      "starlink": "星链",
+      "about": "关于我们",
+      "newsCenter": "新闻中心",
+      "contact": "联系",
+      "faq": "常见问题",
+      "terms": "服务条款",
+      "privacy": "隐私政策"
+    },
+    "copyright": "© {{year}} SpaceX IPO Exchange. 所有传输均已加密。",
+    "status": "任务控制 · 状态:正常"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "上市前配售开放 — 第 04 轮",
+      "title1": "参与",
+      "titleAccent": "多行星",
+      "title2": "经济。",
+      "lede": "SpaceX IPO Exchange 是面向合格投资者的专属平台,在一个安全生态系统中获取 SpaceX 上市前股票、特斯拉股权、车辆与星链连接服务。"
+    },
+    "metrics": {
+      "valuation": "隐含估值",
+      "investors": "已入驻投资者",
+      "capital": "已部署资本",
+      "avg": "平均配售"
+    },
+    "s01": {
+      "kicker": "01 — 为什么 SPACEX",
+      "title": "地球上最具雄心的私营公司。",
+      "lede": "从可重复使用的火箭到 7,000+ 卫星星座,SpaceX 正在建设下一个世纪的基础设施。在公开发行之前提前布局。"
+    },
+    "features": {
+      "reusable": {
+        "t": "可重复使用的太空飞行",
+        "d": "300+ 次成功的猎鹰 9 号着陆,将轨道成本降低了 10 倍。"
+      },
+      "starlink": {
+        "t": "星链骨干",
+        "d": "覆盖 100+ 国家、500 万+ 活跃用户的全球宽带网络。"
+      },
+      "starship": {
+        "t": "星舰时代",
+        "d": "完全可重复使用的超重型架构,目标火星和月球物流。"
+      },
+      "value": {
+        "t": "复合估值",
+        "d": "从 2021 年的 740 亿美元到 2025 年约 4200 亿美元 — 史上最快的价值创造之一。"
+      },
+      "defense": {
+        "t": "国防合同",
+        "d": "来自 NASA、美国太空军及盟国机构的长期政府收入。"
+      },
+      "stack": {
+        "t": "垂直整合",
+        "d": "从推进系统到芯片再到地面站 — 完全自有的航天平台。"
+      }
+    },
+    "s02": {
+      "kicker": "02 — 组合走势",
+      "title": "2021 年的 10,000 美元配售今天约值 56,750 美元。",
+      "lede": "基于 SpaceX 二级市场价格走势建模。过往业绩不代表未来结果,但走势不言自明。"
+    },
+    "s03": {
+      "kicker": "03 — 特斯拉投资中心",
+      "title": "股票。车辆。一个平台。",
+      "lede": "交易特斯拉股票,预订 Model S/X/Y/3、Cybertruck 或 Roadster — 一站式管理。"
+    },
+    "s04": {
+      "kicker": "04 — 星链市场",
+      "title": "在地球任何地方保持连接。",
+      "lede": "购买星链硬件,管理订阅,查看覆盖范围并跟踪货件 — 与您的投资组合并列。"
+    },
+    "s05": {
+      "kicker": "05 — 投资者之声",
+      "title": "获得新一代资本的信任。"
+    },
+    "s06": {
+      "kicker": "06 — 最新动态",
+      "title": "从发射台直达您的投资组合。"
+    },
+    "s07": {
+      "kicker": "07 — 问题",
+      "title": "常见问题。",
+      "lede": "开始首次配售前需要了解的一切。"
+    },
+    "faq": {
+      "q1": "谁可以投资 SpaceX 上市前股份?",
+      "a1": "目前面向全球合格投资者开放;机构架构可按需提供。",
+      "q2": "股份如何托管?",
+      "a2": "通过合格托管人持有的 SPV 架构;每次配售提供文件。",
+      "q3": "支持哪些付款方式?",
+      "a3": "银行电汇(USD、EUR、GBP)及支持的加密货币 BTC、ETH、USDC。",
+      "q4": "是否有最低投资额?",
+      "a4": "标准最低 10,000 美元,部分轮次可低至 5,000 美元起。"
+    },
+    "cta": {
+      "title": "您参与人类下一篇章的席位。",
+      "lede": "加入 184,000+ 投资者,在公开发行之前建立头寸。"
+    }
+  },
+  "auth": {
+    "shellEyebrowLogin": "SECURE GATEWAY",
+    "shellEyebrowRegister": "MISSION ENROLLMENT",
+    "shellEyebrowForgot": "ACCOUNT RECOVERY",
+    "shellEyebrowSent": "RECOVERY DISPATCHED",
+    "shellEyebrowReset": "SET NEW PASSWORD",
+    "shellEyebrowVerifyWaiting": "VERIFY YOUR EMAIL",
+    "shellEyebrowVerifyDone": "VERIFIED",
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to your investor account",
+      "identifier": "Email or phone",
+      "password": "Password",
+      "remember": "Remember me",
+      "forgot": "Forgot password?",
+      "submit": "Sign in",
+      "submitting": "Signing in…",
+      "demoBanner": "DEMO ACCESS",
+      "demoDescription": "One-click sandbox accounts preloaded with sample data. For testing only.",
+      "demoInvestor": "Login as Demo Investor",
+      "demoSupport": "Login as Demo Support",
+      "demoAdmin": "Login as Demo Admin",
+      "demoPreparing": "Preparing demo…",
+      "demoSignedIn": "Signed in as Demo {{kind}}",
+      "demoFailed": "Demo sign-in failed",
+      "welcomeToast": "Welcome back",
+      "failed": "Sign-in failed",
+      "emailUnverifiedTitle": "Email not verified",
+      "emailUnverifiedDesc": "Check your inbox for the verification link."
+    },
+    "register": {
+      "title": "Open your investor account",
+      "subtitle": "Join 184,000+ investors. Verification in under 5 minutes.",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email address",
+      "phone": "Phone number",
+      "country": "Country",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "referral": "Referral code (optional)",
+      "acceptTerms": "I accept the <1>Terms of Service</1>",
+      "acceptPrivacy": "I accept the <1>Privacy Policy</1>",
+      "marketingOptIn": "Send me product updates and investment opportunities",
+      "submit": "Create account",
+      "submitting": "Creating account…",
+      "haveAccount": "Already have an account?",
+      "createdTitle": "Account created",
+      "createdDesc": "Check your inbox to verify your email.",
+      "existsTitle": "Account exists",
+      "existsDesc": "An account with this email already exists. Try signing in.",
+      "failed": "Registration failed"
+    },
+    "forgot": {
+      "title": "Reset your password",
+      "subtitle": "Enter your email to receive a secure recovery link.",
+      "submit": "Send reset link",
+      "submitting": "Sending…",
+      "backToLogin": "Back to sign in",
+      "sentTitle": "Check your email",
+      "sentBody": "If an account exists, we've sent a password reset link. The link expires in 60 minutes.",
+      "failed": "Could not send reset link"
+    },
+    "reset": {
+      "title": "Choose a new password",
+      "subtitle": "Make it strong — your assets depend on it.",
+      "newPassword": "New password",
+      "confirm": "Confirm password",
+      "submit": "Update password",
+      "submitting": "Updating…",
+      "openFromLink": "Open this page from the link in your recovery email.",
+      "doneTitle": "Password updated",
+      "redirecting": "Redirecting to sign in…",
+      "failed": "Could not update password"
+    },
+    "verify": {
+      "title": "Check your inbox",
+      "subtitleWithEmail": "We sent a link to {{email}}",
+      "subtitleNoEmail": "We sent you a verification link.",
+      "instruction": "Click the link in your email to activate your investor account. The link expires in 24 hours.",
+      "resend": "Resend verification email",
+      "back": "Back to sign in",
+      "doneTitle": "Email verified",
+      "doneBody": "Your email is confirmed. You can continue to your account.",
+      "goAccount": "Go to my account",
+      "resendFailed": "Could not resend",
+      "resendSuccess": "Verification email sent"
+    }
+  },
+  "dashboard": {
+    "portal": "INVESTOR PORTAL",
+    "title": "Mission Control",
+    "subtitle": "Your investor overview at a glance.",
+    "stats": {
+      "portfolioValue": "Portfolio Value",
+      "sharesOwned": "Shares Owned",
+      "pending": "Pending",
+      "wallet": "Wallet"
+    },
+    "quickLinks": {
+      "spacexStock": "SpaceX Stock",
+      "teslaStock": "Tesla Stock",
+      "teslaVehicles": "Tesla Vehicles",
+      "holdings": "Holdings"
+    },
+    "summary": {
+      "rewards": "Rewards",
+      "referrals": "Referrals",
+      "achievements": "Achievements",
+      "points": "pts",
+      "lifetime": "Lifetime {{count}}",
+      "earned": "Earned {{amount}}",
+      "latest": "Latest: {{name}}",
+      "firstBadge": "Earn your first badge"
+    },
+    "actions": {
+      "fund": "Fund",
+      "invest": "Invest",
+      "withdraw": "Withdraw",
+      "documents": "Documents",
+      "support": "Support"
+    },
+    "panels": {
+      "growth": "Portfolio Growth",
+      "notifications": "Notifications",
+      "recentActivity": "Recent Activity",
+      "latestOpportunities": "Latest Opportunities",
+      "empty": {
+        "notifications": "No notifications yet.",
+        "transactions": "No transactions yet."
+      },
+      "minTarget": "Min {{min}} · {{target}} target"
+    },
+    "vsLastMonth": "vs last month"
+  },
+  "holdings": {
+    "title": "Holdings Dashboard",
+    "subtitle": "Combined view of every share you own.",
+    "backToMissionControl": "Mission Control",
+    "totalShares": "Total Shares",
+    "totalInvested": "Total Invested",
+    "marketValue": "Market Value",
+    "totalPL": "Total P/L",
+    "bestPerformer": "Best Performer",
+    "underperformer": "Underperformer",
+    "portfolioPerformance": "Portfolio Performance",
+    "allocation": "Allocation",
+    "purchaseHistory": "Purchase History",
+    "cols": {
+      "date": "Date",
+      "asset": "Asset",
+      "side": "Side",
+      "shares": "Shares",
+      "price": "Price",
+      "amount": "Amount",
+      "status": "Status"
+    },
+    "card": {
+      "shares": "Shares",
+      "avgCost": "Avg Cost",
+      "price": "Price",
+      "value": "Value",
+      "invested": "Invested",
+      "pl": "P/L"
+    },
+    "noPurchases": "No purchases yet.",
+    "total": "Total",
+    "tesla": "Tesla",
+    "spacex": "SpaceX"
+  },
+  "wallet": {
+    "title": "Wallet Center",
+    "subtitle": "Multi-currency cash balances and instant transfers.",
+    "available": "Available",
+    "status": "Status",
+    "yieldMonth": "Yield this month",
+    "deposit": "Deposit",
+    "withdraw": "Withdraw",
+    "recent": "Recent Wallet Activity",
+    "empty": "No transactions yet."
+  },
+  "funding": {
+    "title": "Funding Center",
+    "subtitle": "Move capital in and out of your investor account.",
+    "usdBalance": "USD Balance",
+    "pendingRequests": "Pending Requests",
+    "lifetimeDeposits": "Lifetime Deposits",
+    "rail": {
+      "bank": "Bank Wire",
+      "crypto": "Crypto"
+    },
+    "tab": {
+      "deposit": "Deposit",
+      "withdraw": "Withdraw"
+    },
+    "activity": "Activity",
+    "noRequests": "No requests yet.",
+    "fields": {
+      "amountUsd": "Amount (USD) *",
+      "transferDate": "Transfer date *",
+      "sendingBank": "Sending bank *",
+      "referenceNumber": "Reference number *",
+      "notes": "Notes",
+      "proof": "Proof of payment",
+      "uploadReceipt": "Upload bank receipt (PDF or image)",
+      "destinationBank": "Destination bank *",
+      "accountHolder": "Account holder *",
+      "accountIban": "Account / IBAN *",
+      "swift": "SWIFT / BIC",
+      "amountAsset": "Amount ({{asset}}) *",
+      "txHash": "Transaction hash *",
+      "destinationAddress": "Destination address *",
+      "memo": "Memo / tag (optional)"
+    },
+    "bank": {
+      "wireTo": "Wire to:",
+      "includeReference": "Include your account email as reference.",
+      "depositSubmitted": "Deposit submitted. Finance team will verify within 1 business day.",
+      "withdrawSubmitted": "Withdrawal request submitted. Compliance review starts immediately.",
+      "submitDeposit": "Submit deposit",
+      "requestWithdraw": "Request withdrawal",
+      "exceedsBalance": "Exceeds available balance ({{max}})",
+      "availableInfo": "Available: <1>{{max}}</1>. Withdrawals pass compliance → finance review before broadcast.",
+      "fillRequired": "Fill all required fields"
+    },
+    "crypto": {
+      "addressLabel": "{{label}} deposit address ({{network}}):",
+      "sendOnly": "Send only {{asset}} on {{network}}. Other assets will be lost.",
+      "noAddress": "No {{asset}} address assigned yet. Contact support — our finance team will provision one within minutes.",
+      "memoLabel": "Memo / tag:",
+      "notifyDeposit": "Notify deposit",
+      "depositSubmitted": "Deposit submitted — finance will credit once confirmed on-chain.",
+      "withdrawQueued": "Withdrawal queued — compliance review starts immediately.",
+      "amountTxRequired": "Amount and tx hash are required",
+      "amountAddrRequired": "Amount and address are required",
+      "exceedsBalance": "Exceeds balance ({{bal}} {{asset}})",
+      "availableOn": "Available: <1>{{bal}} {{asset}}</1> on {{network}}"
+    }
+  },
+  "transactions": {
+    "title": "Transaction History",
+    "subtitle": "Every deposit, withdrawal, investment, and distribution.",
+    "exportCsv": "Export CSV",
+    "searchPlaceholder": "Search transactions",
+    "cols": {
+      "ref": "Ref",
+      "date": "Date",
+      "type": "Type",
+      "status": "Status",
+      "amount": "Amount",
+      "balance": "Balance"
+    },
+    "empty": "No transactions yet.",
+    "types": {
+      "All": "All",
+      "deposit": "Deposit",
+      "withdrawal": "Withdrawal",
+      "investment": "Investment",
+      "dividend": "Dividend",
+      "adjustment": "Adjustment",
+      "fee": "Fee"
+    }
+  },
+  "invoices": {
+    "title": "Invoices & Receipts",
+    "subtitle": "Every purchase and deposit you have made. Paid invoices serve as your receipt.",
+    "tabs": {
+      "all": "All",
+      "purchase": "Purchase",
+      "deposit": "Deposit",
+      "paid": "Receipts",
+      "unpaid": "Unpaid"
+    },
+    "empty": "No invoices yet.",
+    "paidWith": "{{amount}} paid",
+    "unpaid": "Unpaid"
+  },
+  "metrics": {
+    "tslaDelta30": "对比 S&P",
+    "tslaYtd": "跑赢"
+  },
+  "tag": {
+    "tsla": "TSLA · 纳斯达克"
+  },
+  "plan": {
+    "standard": {
+      "l": "标准",
+      "d": "家庭宽带"
+    },
+    "roam": {
+      "l": "漫游",
+      "d": "全球移动"
+    },
+    "maritime": {
+      "l": "海事",
+      "d": "远洋覆盖"
+    },
+    "aviation": {
+      "l": "航空",
+      "d": "机上千兆",
+      "price": "定制"
+    }
+  },
+  "investorCta": {
+    "eyebrow": "INVESTOR ACCESS",
+    "title": "Create your Investor Account",
+    "description": "Verify accreditation, fund your account and confirm allocations — all in one secure portal."
+  },
+  "userMenu": {
+    "signedInAs": "Signed in as",
+    "dashboard": "Dashboard",
+    "profile": "Profile"
+  }
+}

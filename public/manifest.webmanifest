@@ -1,0 +1,14 @@
+{
+  "name": "SpaceX IPO Exchange — Investor Portal",
+  "short_name": "SpaceX IPO",
+  "description": "Premier aerospace investment platform. Invest in SpaceX pre-IPO shares, Tesla equity, and Starlink.",
+  "start_url": "/account/dashboard",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b0f1a",
+  "theme_color": "#0b0f1a",
+  "icons": [
+    { "src": "/favicon.ico", "sizes": "64x64 32x32 24x24 16x16", "type": "image/x-icon" }
+  ]
+}

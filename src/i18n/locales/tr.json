@@ -1,0 +1,518 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "spacex": "SpaceX Halka Arz",
+    "teslaStock": "Tesla Hissesi",
+    "vehicles": "Araçlar",
+    "starlink": "Starlink",
+    "news": "Haberler",
+    "education": "Eğitim",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "faq": "SSS"
+  },
+  "cta": {
+    "investNow": "Hemen Yatırım",
+    "contact": "İletişim",
+    "buyShares": "SpaceX Hissesi Al",
+    "explore": "Tesla ve Starlink",
+    "tradeTsla": "TSLA Al/Sat",
+    "configureTesla": "Tesla Yapılandır",
+    "exploreStarlink": "Starlink Keşfet",
+    "beginAllocation": "Tahsise Başla",
+    "talkAdvisor": "Danışmana Ulaş",
+    "readThesis": "Tüm Tezi Oku",
+    "allNews": "Tüm Haberler",
+    "browseFaq": "Tüm SSS",
+    "requestAccess": "Erişim İste",
+    "createAccount": "Create Investor Account",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "signUp": "Create account",
+    "login": "Login",
+    "loginToInvest": "Login to invest",
+    "investorPortal": "Investor Portal",
+    "security": "Security",
+    "backToSite": "← Back to site",
+    "goToPortal": "Go to Investor Portal"
+  },
+  "common": {
+    "search": "Ara",
+    "searchPlaceholder": "SpaceX, Tesla, Starlink ara…",
+    "menu": "Menü",
+    "language": "Dil",
+    "country": "Ülke",
+    "selectLanguage": "Dil seç",
+    "selectCountry": "Ülke seç",
+    "loading": "Yükleniyor…",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving…",
+    "submitting": "Submitting…",
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "copy": "Copy",
+    "copied": "Copied",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "export": "Export",
+    "exportCsv": "Export CSV",
+    "viewAll": "View all",
+    "all": "All",
+    "details": "Details",
+    "status": "Status",
+    "date": "Date",
+    "amount": "Amount",
+    "type": "Type",
+    "ref": "Ref",
+    "balance": "Balance",
+    "available": "Available",
+    "pending": "Pending",
+    "completed": "Completed",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "paid": "Paid",
+    "unpaid": "Unpaid",
+    "noResults": "No results.",
+    "required": "Required",
+    "optional": "Optional",
+    "error": "Error",
+    "success": "Success",
+    "tryAgain": "Try again",
+    "filters": "Filters",
+    "showMore": "Show more",
+    "showLess": "Show less"
+  },
+  "footer": {
+    "tagline": "SpaceX halka arz öncesi hisseleri, Tesla hissesi, araçlar ve Starlink hizmetlerine açılan öncü dijital kapı — yeni nesil yatırımcılar için tasarlandı.",
+    "cols": {
+      "invest": "Yatırım",
+      "commerce": "Ticaret",
+      "company": "Şirket",
+      "legal": "Yasal"
+    },
+    "links": {
+      "spacexIpo": "SpaceX Halka Arz",
+      "teslaStock": "Tesla Hissesi",
+      "whyInvest": "Neden Yatırım",
+      "education": "Yatırımcı Eğitimi",
+      "teslaVehicles": "Tesla Araçları",
+      "starlink": "Starlink",
+      "about": "Hakkımızda",
+      "newsCenter": "Haber Merkezi",
+      "contact": "İletişim",
+      "faq": "SSS",
+      "terms": "Hizmet Şartları",
+      "privacy": "Gizlilik"
+    },
+    "copyright": "© {{year}} SpaceX IPO Exchange. Tüm aktarımlar şifrelidir.",
+    "status": "GÖREV KONTROLÜ · DURUM: NORMAL"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "HALKA ARZ ÖNCESİ TAHSİS AÇIK — TUR 04",
+      "title1": "Geleceğin",
+      "titleAccent": "çok gezegenli",
+      "title2": "ekonomide pay sahibi olun.",
+      "lede": "SpaceX IPO Exchange, yetkilendirilmiş yatırımcıların halka arz öncesi SpaceX hisselerini, Tesla hisselerini, araçları ve Starlink bağlantısını tek bir güvenli ekosistemde edinebileceği özel platformdur."
+    },
+    "metrics": {
+      "valuation": "Üstü Kapalı Değerleme",
+      "investors": "Aktif Yatırımcı",
+      "capital": "Konuşlandırılan Sermaye",
+      "avg": "Ort. Tahsis"
+    },
+    "s01": {
+      "kicker": "01 — NEDEN SPACEX",
+      "title": "Dünyanın en iddialı özel şirketi.",
+      "lede": "Yeniden kullanılabilir roketlerden 7.000'den fazla uydudan oluşan takımyıldıza kadar, SpaceX bir sonraki yüzyılın altyapısını inşa ediyor. Halka arzdan önce erken pozisyon alın."
+    },
+    "features": {
+      "reusable": {
+        "t": "Yeniden Kullanılabilir Uçuş",
+        "d": "300'den fazla başarılı Falcon 9 inişi, yörünge maliyetini 10 kat düşürdü."
+      },
+      "starlink": {
+        "t": "Starlink Omurgası",
+        "d": "100+ ülkede 5 milyondan fazla aktif aboneye sahip küresel geniş bant ağı."
+      },
+      "starship": {
+        "t": "Starship Çağı",
+        "d": "Mars ve Ay lojistiğine yönelik tamamen yeniden kullanılabilir süper ağır taşıma mimarisi."
+      },
+      "value": {
+        "t": "Bileşik Değerlenme",
+        "d": "2021'de 74 milyar $'dan 2025'te ~420 milyar $'a — tarihteki en hızlı değer yaratımlarından biri."
+      },
+      "defense": {
+        "t": "Savunma Sözleşmeleri",
+        "d": "NASA, USSF ve müttefik uzay ajanslarından uzun vadeli hükümet geliri."
+      },
+      "stack": {
+        "t": "Dikey Entegrasyon",
+        "d": "İtkiden silikona, yer istasyonlarına kadar — tamamen sahip olunan havacılık platformu."
+      }
+    },
+    "s02": {
+      "kicker": "02 — PORTFÖY YÖRÜNGESİ",
+      "title": "2021'deki 10.000 $ tahsis bugün yaklaşık 56.750 $ değerinde.",
+      "lede": "SpaceX'in ikincil piyasa fiyat hareketine göre modellenmiştir. Geçmiş performans gelecek sonuçların garantisi değildir, ancak yörünge kendi adına konuşur."
+    },
+    "s03": {
+      "kicker": "03 — TESLA YATIRIM MERKEZİ",
+      "title": "Hisse. Araç. Tek platform.",
+      "lede": "Tesla hissesi alın-satın, Model S/X/Y/3, Cybertruck veya Roadster ayırtın — hepsini tek bir panelden takip edin."
+    },
+    "s04": {
+      "kicker": "04 — STARLINK PAZAR YERİ",
+      "title": "Dünyanın her yerinde bağlan.",
+      "lede": "Starlink donanımı satın alın, abonelikleri yönetin, kapsamı kontrol edin ve gönderileri takip edin — portföyünüzle birlikte."
+    },
+    "s05": {
+      "kicker": "05 — YATIRIMCI SESLERİ",
+      "title": "Yeni nesil sermayenin güveni."
+    },
+    "s06": {
+      "kicker": "06 — SON İLETİLER",
+      "title": "Fırlatma rampasından portföyünüze."
+    },
+    "s07": {
+      "kicker": "07 — SORULAR",
+      "title": "Sıkça sorulanlar.",
+      "lede": "İlk tahsisinizden önce bilmeniz gereken her şey."
+    },
+    "faq": {
+      "q1": "SpaceX halka arz öncesi hisselerine kim yatırım yapabilir?",
+      "a1": "Şu anda dünya genelinde yetkilendirilmiş yatırımcılara açık; kurumsal yapılar talep üzerine.",
+      "q2": "Hisseler nasıl saklanır?",
+      "a2": "Yetkili saklayıcılarda tutulan SPV yapıları aracılığıyla; her tahsis için belgeler sağlanır.",
+      "q3": "Hangi ödeme yöntemleri desteklenir?",
+      "a3": "Banka havalesi (USD, EUR, GBP) ve BTC, ETH, USDC dahil desteklenen kripto paralar.",
+      "q4": "Asgari yatırım tutarı var mı?",
+      "a4": "Standart asgari tutar 10.000 $; seçili turlar 5.000 $ üzerinden başlar."
+    },
+    "cta": {
+      "title": "İnsanlığın bir sonraki bölümündeki yeriniz.",
+      "lede": "Halka arzdan önce pozisyon alan 184.000'den fazla yatırımcıya katılın."
+    }
+  },
+  "auth": {
+    "shellEyebrowLogin": "SECURE GATEWAY",
+    "shellEyebrowRegister": "MISSION ENROLLMENT",
+    "shellEyebrowForgot": "ACCOUNT RECOVERY",
+    "shellEyebrowSent": "RECOVERY DISPATCHED",
+    "shellEyebrowReset": "SET NEW PASSWORD",
+    "shellEyebrowVerifyWaiting": "VERIFY YOUR EMAIL",
+    "shellEyebrowVerifyDone": "VERIFIED",
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to your investor account",
+      "identifier": "Email or phone",
+      "password": "Password",
+      "remember": "Remember me",
+      "forgot": "Forgot password?",
+      "submit": "Sign in",
+      "submitting": "Signing in…",
+      "demoBanner": "DEMO ACCESS",
+      "demoDescription": "One-click sandbox accounts preloaded with sample data. For testing only.",
+      "demoInvestor": "Login as Demo Investor",
+      "demoSupport": "Login as Demo Support",
+      "demoAdmin": "Login as Demo Admin",
+      "demoPreparing": "Preparing demo…",
+      "demoSignedIn": "Signed in as Demo {{kind}}",
+      "demoFailed": "Demo sign-in failed",
+      "welcomeToast": "Welcome back",
+      "failed": "Sign-in failed",
+      "emailUnverifiedTitle": "Email not verified",
+      "emailUnverifiedDesc": "Check your inbox for the verification link."
+    },
+    "register": {
+      "title": "Open your investor account",
+      "subtitle": "Join 184,000+ investors. Verification in under 5 minutes.",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email address",
+      "phone": "Phone number",
+      "country": "Country",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "referral": "Referral code (optional)",
+      "acceptTerms": "I accept the <1>Terms of Service</1>",
+      "acceptPrivacy": "I accept the <1>Privacy Policy</1>",
+      "marketingOptIn": "Send me product updates and investment opportunities",
+      "submit": "Create account",
+      "submitting": "Creating account…",
+      "haveAccount": "Already have an account?",
+      "createdTitle": "Account created",
+      "createdDesc": "Check your inbox to verify your email.",
+      "existsTitle": "Account exists",
+      "existsDesc": "An account with this email already exists. Try signing in.",
+      "failed": "Registration failed"
+    },
+    "forgot": {
+      "title": "Reset your password",
+      "subtitle": "Enter your email to receive a secure recovery link.",
+      "submit": "Send reset link",
+      "submitting": "Sending…",
+      "backToLogin": "Back to sign in",
+      "sentTitle": "Check your email",
+      "sentBody": "If an account exists, we've sent a password reset link. The link expires in 60 minutes.",
+      "failed": "Could not send reset link"
+    },
+    "reset": {
+      "title": "Choose a new password",
+      "subtitle": "Make it strong — your assets depend on it.",
+      "newPassword": "New password",
+      "confirm": "Confirm password",
+      "submit": "Update password",
+      "submitting": "Updating…",
+      "openFromLink": "Open this page from the link in your recovery email.",
+      "doneTitle": "Password updated",
+      "redirecting": "Redirecting to sign in…",
+      "failed": "Could not update password"
+    },
+    "verify": {
+      "title": "Check your inbox",
+      "subtitleWithEmail": "We sent a link to {{email}}",
+      "subtitleNoEmail": "We sent you a verification link.",
+      "instruction": "Click the link in your email to activate your investor account. The link expires in 24 hours.",
+      "resend": "Resend verification email",
+      "back": "Back to sign in",
+      "doneTitle": "Email verified",
+      "doneBody": "Your email is confirmed. You can continue to your account.",
+      "goAccount": "Go to my account",
+      "resendFailed": "Could not resend",
+      "resendSuccess": "Verification email sent"
+    }
+  },
+  "dashboard": {
+    "portal": "INVESTOR PORTAL",
+    "title": "Mission Control",
+    "subtitle": "Your investor overview at a glance.",
+    "stats": {
+      "portfolioValue": "Portfolio Value",
+      "sharesOwned": "Shares Owned",
+      "pending": "Pending",
+      "wallet": "Wallet"
+    },
+    "quickLinks": {
+      "spacexStock": "SpaceX Stock",
+      "teslaStock": "Tesla Stock",
+      "teslaVehicles": "Tesla Vehicles",
+      "holdings": "Holdings"
+    },
+    "summary": {
+      "rewards": "Rewards",
+      "referrals": "Referrals",
+      "achievements": "Achievements",
+      "points": "pts",
+      "lifetime": "Lifetime {{count}}",
+      "earned": "Earned {{amount}}",
+      "latest": "Latest: {{name}}",
+      "firstBadge": "Earn your first badge"
+    },
+    "actions": {
+      "fund": "Fund",
+      "invest": "Invest",
+      "withdraw": "Withdraw",
+      "documents": "Documents",
+      "support": "Support"
+    },
+    "panels": {
+      "growth": "Portfolio Growth",
+      "notifications": "Notifications",
+      "recentActivity": "Recent Activity",
+      "latestOpportunities": "Latest Opportunities",
+      "empty": {
+        "notifications": "No notifications yet.",
+        "transactions": "No transactions yet."
+      },
+      "minTarget": "Min {{min}} · {{target}} target"
+    },
+    "vsLastMonth": "vs last month"
+  },
+  "holdings": {
+    "title": "Holdings Dashboard",
+    "subtitle": "Combined view of every share you own.",
+    "backToMissionControl": "Mission Control",
+    "totalShares": "Total Shares",
+    "totalInvested": "Total Invested",
+    "marketValue": "Market Value",
+    "totalPL": "Total P/L",
+    "bestPerformer": "Best Performer",
+    "underperformer": "Underperformer",
+    "portfolioPerformance": "Portfolio Performance",
+    "allocation": "Allocation",
+    "purchaseHistory": "Purchase History",
+    "cols": {
+      "date": "Date",
+      "asset": "Asset",
+      "side": "Side",
+      "shares": "Shares",
+      "price": "Price",
+      "amount": "Amount",
+      "status": "Status"
+    },
+    "card": {
+      "shares": "Shares",
+      "avgCost": "Avg Cost",
+      "price": "Price",
+      "value": "Value",
+      "invested": "Invested",
+      "pl": "P/L"
+    },
+    "noPurchases": "No purchases yet.",
+    "total": "Total",
+    "tesla": "Tesla",
+    "spacex": "SpaceX"
+  },
+  "wallet": {
+    "title": "Wallet Center",
+    "subtitle": "Multi-currency cash balances and instant transfers.",
+    "available": "Available",
+    "status": "Status",
+    "yieldMonth": "Yield this month",
+    "deposit": "Deposit",
+    "withdraw": "Withdraw",
+    "recent": "Recent Wallet Activity",
+    "empty": "No transactions yet."
+  },
+  "funding": {
+    "title": "Funding Center",
+    "subtitle": "Move capital in and out of your investor account.",
+    "usdBalance": "USD Balance",
+    "pendingRequests": "Pending Requests",
+    "lifetimeDeposits": "Lifetime Deposits",
+    "rail": {
+      "bank": "Bank Wire",
+      "crypto": "Crypto"
+    },
+    "tab": {
+      "deposit": "Deposit",
+      "withdraw": "Withdraw"
+    },
+    "activity": "Activity",
+    "noRequests": "No requests yet.",
+    "fields": {
+      "amountUsd": "Amount (USD) *",
+      "transferDate": "Transfer date *",
+      "sendingBank": "Sending bank *",
+      "referenceNumber": "Reference number *",
+      "notes": "Notes",
+      "proof": "Proof of payment",
+      "uploadReceipt": "Upload bank receipt (PDF or image)",
+      "destinationBank": "Destination bank *",
+      "accountHolder": "Account holder *",
+      "accountIban": "Account / IBAN *",
+      "swift": "SWIFT / BIC",
+      "amountAsset": "Amount ({{asset}}) *",
+      "txHash": "Transaction hash *",
+      "destinationAddress": "Destination address *",
+      "memo": "Memo / tag (optional)"
+    },
+    "bank": {
+      "wireTo": "Wire to:",
+      "includeReference": "Include your account email as reference.",
+      "depositSubmitted": "Deposit submitted. Finance team will verify within 1 business day.",
+      "withdrawSubmitted": "Withdrawal request submitted. Compliance review starts immediately.",
+      "submitDeposit": "Submit deposit",
+      "requestWithdraw": "Request withdrawal",
+      "exceedsBalance": "Exceeds available balance ({{max}})",
+      "availableInfo": "Available: <1>{{max}}</1>. Withdrawals pass compliance → finance review before broadcast.",
+      "fillRequired": "Fill all required fields"
+    },
+    "crypto": {
+      "addressLabel": "{{label}} deposit address ({{network}}):",
+      "sendOnly": "Send only {{asset}} on {{network}}. Other assets will be lost.",
+      "noAddress": "No {{asset}} address assigned yet. Contact support — our finance team will provision one within minutes.",
+      "memoLabel": "Memo / tag:",
+      "notifyDeposit": "Notify deposit",
+      "depositSubmitted": "Deposit submitted — finance will credit once confirmed on-chain.",
+      "withdrawQueued": "Withdrawal queued — compliance review starts immediately.",
+      "amountTxRequired": "Amount and tx hash are required",
+      "amountAddrRequired": "Amount and address are required",
+      "exceedsBalance": "Exceeds balance ({{bal}} {{asset}})",
+      "availableOn": "Available: <1>{{bal}} {{asset}}</1> on {{network}}"
+    }
+  },
+  "transactions": {
+    "title": "Transaction History",
+    "subtitle": "Every deposit, withdrawal, investment, and distribution.",
+    "exportCsv": "Export CSV",
+    "searchPlaceholder": "Search transactions",
+    "cols": {
+      "ref": "Ref",
+      "date": "Date",
+      "type": "Type",
+      "status": "Status",
+      "amount": "Amount",
+      "balance": "Balance"
+    },
+    "empty": "No transactions yet.",
+    "types": {
+      "All": "All",
+      "deposit": "Deposit",
+      "withdrawal": "Withdrawal",
+      "investment": "Investment",
+      "dividend": "Dividend",
+      "adjustment": "Adjustment",
+      "fee": "Fee"
+    }
+  },
+  "invoices": {
+    "title": "Invoices & Receipts",
+    "subtitle": "Every purchase and deposit you have made. Paid invoices serve as your receipt.",
+    "tabs": {
+      "all": "All",
+      "purchase": "Purchase",
+      "deposit": "Deposit",
+      "paid": "Receipts",
+      "unpaid": "Unpaid"
+    },
+    "empty": "No invoices yet.",
+    "paidWith": "{{amount}} paid",
+    "unpaid": "Unpaid"
+  },
+  "metrics": {
+    "tslaDelta30": "S&P karşı",
+    "tslaYtd": "üstün performans"
+  },
+  "tag": {
+    "tsla": "TSLA · NASDAQ"
+  },
+  "plan": {
+    "standard": {
+      "l": "Standart",
+      "d": "Konut geniş bant"
+    },
+    "roam": {
+      "l": "Roam",
+      "d": "Küresel hareketlilik"
+    },
+    "maritime": {
+      "l": "Denizcilik",
+      "d": "Açık deniz kapsama"
+    },
+    "aviation": {
+      "l": "Havacılık",
+      "d": "Uçuş içi gigabit",
+      "price": "Özel"
+    }
+  },
+  "investorCta": {
+    "eyebrow": "INVESTOR ACCESS",
+    "title": "Create your Investor Account",
+    "description": "Verify accreditation, fund your account and confirm allocations — all in one secure portal."
+  },
+  "userMenu": {
+    "signedInAs": "Signed in as",
+    "dashboard": "Dashboard",
+    "profile": "Profile"
+  }
+}

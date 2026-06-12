@@ -1,0 +1,518 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "spacex": "اكتتاب سبيس إكس",
+    "teslaStock": "سهم تسلا",
+    "vehicles": "المركبات",
+    "starlink": "ستارلينك",
+    "news": "الأخبار",
+    "education": "التعليم",
+    "about": "من نحن",
+    "contact": "اتصل",
+    "faq": "الأسئلة الشائعة"
+  },
+  "cta": {
+    "investNow": "استثمر الآن",
+    "contact": "اتصل",
+    "buyShares": "شراء أسهم سبيس إكس",
+    "explore": "اكتشف تسلا وستارلينك",
+    "tradeTsla": "تداول TSLA",
+    "configureTesla": "تخصيص تسلا",
+    "exploreStarlink": "اكتشف ستارلينك",
+    "beginAllocation": "ابدأ التخصيص",
+    "talkAdvisor": "تحدث إلى مستشار",
+    "readThesis": "اقرأ الأطروحة الكاملة",
+    "allNews": "كل الأخبار",
+    "browseFaq": "تصفح الأسئلة",
+    "requestAccess": "اطلب الوصول",
+    "createAccount": "Create Investor Account",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "signUp": "Create account",
+    "login": "Login",
+    "loginToInvest": "Login to invest",
+    "investorPortal": "Investor Portal",
+    "security": "Security",
+    "backToSite": "← Back to site",
+    "goToPortal": "Go to Investor Portal"
+  },
+  "common": {
+    "search": "بحث",
+    "searchPlaceholder": "ابحث في سبيس إكس وتسلا…",
+    "menu": "القائمة",
+    "language": "اللغة",
+    "country": "الدولة",
+    "selectLanguage": "اختر اللغة",
+    "selectCountry": "اختر الدولة",
+    "loading": "جارٍ التحميل…",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving…",
+    "submitting": "Submitting…",
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "copy": "Copy",
+    "copied": "Copied",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "export": "Export",
+    "exportCsv": "Export CSV",
+    "viewAll": "View all",
+    "all": "All",
+    "details": "Details",
+    "status": "Status",
+    "date": "Date",
+    "amount": "Amount",
+    "type": "Type",
+    "ref": "Ref",
+    "balance": "Balance",
+    "available": "Available",
+    "pending": "Pending",
+    "completed": "Completed",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "paid": "Paid",
+    "unpaid": "Unpaid",
+    "noResults": "No results.",
+    "required": "Required",
+    "optional": "Optional",
+    "error": "Error",
+    "success": "Success",
+    "tryAgain": "Try again",
+    "filters": "Filters",
+    "showMore": "Show more",
+    "showLess": "Show less"
+  },
+  "footer": {
+    "tagline": "البوابة الرقمية الرائدة لأسهم سبيس إكس قبل الطرح العام، أسهم تسلا، المركبات وخدمات ستارلينك — مصممة لجيل المستثمرين الجديد.",
+    "cols": {
+      "invest": "استثمار",
+      "commerce": "التجارة",
+      "company": "الشركة",
+      "legal": "قانوني"
+    },
+    "links": {
+      "spacexIpo": "اكتتاب سبيس إكس",
+      "teslaStock": "سهم تسلا",
+      "whyInvest": "لماذا الاستثمار",
+      "education": "تعليم المستثمر",
+      "teslaVehicles": "مركبات تسلا",
+      "starlink": "ستارلينك",
+      "about": "معلومات عنا",
+      "newsCenter": "مركز الأخبار",
+      "contact": "اتصل بنا",
+      "faq": "الأسئلة الشائعة",
+      "terms": "شروط الخدمة",
+      "privacy": "سياسة الخصوصية"
+    },
+    "copyright": "© {{year}} سبيس إكس IPO إكستشينج. جميع الإرسالات مشفّرة.",
+    "status": "مركز التحكم · الحالة: طبيعية"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "تخصيص ما قبل الاكتتاب مفتوح — الجولة 04",
+      "title1": "امتلك حصة في",
+      "titleAccent": "متعدد الكواكب",
+      "title2": "الاقتصاد.",
+      "lede": "SpaceX IPO Exchange هي المنصة المخصصة للمستثمرين المعتمدين للاستحواذ على أسهم سبيس إكس قبل الطرح العام وأسهم تسلا والمركبات وخدمات ستارلينك — في نظام بيئي آمن واحد."
+    },
+    "metrics": {
+      "valuation": "التقييم الضمني",
+      "investors": "المستثمرون المسجّلون",
+      "capital": "رأس المال الموزّع",
+      "avg": "متوسط التخصيص"
+    },
+    "s01": {
+      "kicker": "01 — لماذا سبيس إكس",
+      "title": "أكثر شركة خاصة طموحًا على وجه الأرض.",
+      "lede": "من الصواريخ القابلة لإعادة الاستخدام إلى كوكبة تضم أكثر من 7,000 قمر صناعي، تبني سبيس إكس البنية التحتية للقرن القادم. اتخذ موقعك قبل الطرح العام."
+    },
+    "features": {
+      "reusable": {
+        "t": "رحلات فضاء قابلة لإعادة الاستخدام",
+        "d": "أكثر من 300 هبوط ناجح لـ Falcon 9 خفّضت تكلفة المدار بمعدّل 10 أضعاف."
+      },
+      "starlink": {
+        "t": "العمود الفقري لستارلينك",
+        "d": "شبكة نطاق عريض عالمية مع 5+ ملايين مشترك في أكثر من 100 دولة."
+      },
+      "starship": {
+        "t": "عصر ستارشيب",
+        "d": "بنية رفع فائقة الثقل قابلة لإعادة الاستخدام بالكامل تستهدف المريخ والقمر."
+      },
+      "value": {
+        "t": "تقييم متراكم",
+        "d": "من 74 مليار دولار في 2021 إلى نحو 420 مليار في 2025 — من أسرع موجات خلق القيمة في التاريخ."
+      },
+      "defense": {
+        "t": "عقود دفاعية",
+        "d": "إيرادات حكومية مستدامة من ناسا والقوات الفضائية الأمريكية ووكالات حليفة."
+      },
+      "stack": {
+        "t": "تكامل عمودي",
+        "d": "من الدفع إلى الرقائق إلى المحطات الأرضية — منصة فضائية مملوكة بالكامل."
+      }
+    },
+    "s02": {
+      "kicker": "02 — مسار المحفظة",
+      "title": "تخصيص بـ 10,000 دولار في 2021 يساوي اليوم ~56,750 دولارًا.",
+      "lede": "يستند إلى تطوّر سعر سهم سبيس إكس في السوق الثانوية. الأداء السابق لا يضمن النتائج المستقبلية، لكن المسار يتحدث عن نفسه."
+    },
+    "s03": {
+      "kicker": "03 — مركز استثمار تسلا",
+      "title": "السهم. المركبات. منصة واحدة.",
+      "lede": "تداول أسهم تسلا، احجز Model S أو X أو Y أو 3 أو Cybertruck أو Roadster — وتتبع كل شيء من لوحة تحكم واحدة."
+    },
+    "s04": {
+      "kicker": "04 — متجر ستارلينك",
+      "title": "اتصل من أي مكان على وجه الأرض.",
+      "lede": "اشترِ معدات ستارلينك، أدر اشتراكاتك، تحقق من التغطية وتابع الشحنات — جنبًا إلى جنب مع محفظتك."
+    },
+    "s05": {
+      "kicker": "05 — أصوات المستثمرين",
+      "title": "موضع ثقة الجيل القادم من رؤوس الأموال."
+    },
+    "s06": {
+      "kicker": "06 — أحدث الإرسالات",
+      "title": "من منصة الإطلاق إلى محفظتك."
+    },
+    "s07": {
+      "kicker": "07 — أسئلة",
+      "title": "الأسئلة الشائعة.",
+      "lede": "كل ما تحتاج معرفته قبل تخصيصك الأول."
+    },
+    "faq": {
+      "q1": "من يمكنه الاستثمار في أسهم سبيس إكس قبل الاكتتاب؟",
+      "a1": "مفتوح حاليًا للمستثمرين المعتمدين عالميًا؛ هياكل مؤسسية متاحة عند الطلب.",
+      "q2": "كيف يتم حفظ الأسهم؟",
+      "a2": "عبر هياكل SPV لدى أمناء حفظ مؤهّلين؛ يتم تقديم الوثائق مع كل تخصيص.",
+      "q3": "ما طرق الدفع المدعومة؟",
+      "a3": "تحويلات بنكية (USD، EUR، GBP) وعملات رقمية مدعومة منها BTC وETH وUSDC.",
+      "q4": "هل هناك حد أدنى للاستثمار؟",
+      "a4": "الحد الأدنى القياسي 10,000 دولار، مع جولات مختارة تبدأ من 5,000 دولار."
+    },
+    "cta": {
+      "title": "مقعدك في الفصل التالي من قصة الإنسانية.",
+      "lede": "انضم إلى أكثر من 184,000 مستثمر يبنون مراكزهم قبل الطرح العام."
+    }
+  },
+  "auth": {
+    "shellEyebrowLogin": "SECURE GATEWAY",
+    "shellEyebrowRegister": "MISSION ENROLLMENT",
+    "shellEyebrowForgot": "ACCOUNT RECOVERY",
+    "shellEyebrowSent": "RECOVERY DISPATCHED",
+    "shellEyebrowReset": "SET NEW PASSWORD",
+    "shellEyebrowVerifyWaiting": "VERIFY YOUR EMAIL",
+    "shellEyebrowVerifyDone": "VERIFIED",
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to your investor account",
+      "identifier": "Email or phone",
+      "password": "Password",
+      "remember": "Remember me",
+      "forgot": "Forgot password?",
+      "submit": "Sign in",
+      "submitting": "Signing in…",
+      "demoBanner": "DEMO ACCESS",
+      "demoDescription": "One-click sandbox accounts preloaded with sample data. For testing only.",
+      "demoInvestor": "Login as Demo Investor",
+      "demoSupport": "Login as Demo Support",
+      "demoAdmin": "Login as Demo Admin",
+      "demoPreparing": "Preparing demo…",
+      "demoSignedIn": "Signed in as Demo {{kind}}",
+      "demoFailed": "Demo sign-in failed",
+      "welcomeToast": "Welcome back",
+      "failed": "Sign-in failed",
+      "emailUnverifiedTitle": "Email not verified",
+      "emailUnverifiedDesc": "Check your inbox for the verification link."
+    },
+    "register": {
+      "title": "Open your investor account",
+      "subtitle": "Join 184,000+ investors. Verification in under 5 minutes.",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email address",
+      "phone": "Phone number",
+      "country": "Country",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "referral": "Referral code (optional)",
+      "acceptTerms": "I accept the <1>Terms of Service</1>",
+      "acceptPrivacy": "I accept the <1>Privacy Policy</1>",
+      "marketingOptIn": "Send me product updates and investment opportunities",
+      "submit": "Create account",
+      "submitting": "Creating account…",
+      "haveAccount": "Already have an account?",
+      "createdTitle": "Account created",
+      "createdDesc": "Check your inbox to verify your email.",
+      "existsTitle": "Account exists",
+      "existsDesc": "An account with this email already exists. Try signing in.",
+      "failed": "Registration failed"
+    },
+    "forgot": {
+      "title": "Reset your password",
+      "subtitle": "Enter your email to receive a secure recovery link.",
+      "submit": "Send reset link",
+      "submitting": "Sending…",
+      "backToLogin": "Back to sign in",
+      "sentTitle": "Check your email",
+      "sentBody": "If an account exists, we've sent a password reset link. The link expires in 60 minutes.",
+      "failed": "Could not send reset link"
+    },
+    "reset": {
+      "title": "Choose a new password",
+      "subtitle": "Make it strong — your assets depend on it.",
+      "newPassword": "New password",
+      "confirm": "Confirm password",
+      "submit": "Update password",
+      "submitting": "Updating…",
+      "openFromLink": "Open this page from the link in your recovery email.",
+      "doneTitle": "Password updated",
+      "redirecting": "Redirecting to sign in…",
+      "failed": "Could not update password"
+    },
+    "verify": {
+      "title": "Check your inbox",
+      "subtitleWithEmail": "We sent a link to {{email}}",
+      "subtitleNoEmail": "We sent you a verification link.",
+      "instruction": "Click the link in your email to activate your investor account. The link expires in 24 hours.",
+      "resend": "Resend verification email",
+      "back": "Back to sign in",
+      "doneTitle": "Email verified",
+      "doneBody": "Your email is confirmed. You can continue to your account.",
+      "goAccount": "Go to my account",
+      "resendFailed": "Could not resend",
+      "resendSuccess": "Verification email sent"
+    }
+  },
+  "dashboard": {
+    "portal": "INVESTOR PORTAL",
+    "title": "Mission Control",
+    "subtitle": "Your investor overview at a glance.",
+    "stats": {
+      "portfolioValue": "Portfolio Value",
+      "sharesOwned": "Shares Owned",
+      "pending": "Pending",
+      "wallet": "Wallet"
+    },
+    "quickLinks": {
+      "spacexStock": "SpaceX Stock",
+      "teslaStock": "Tesla Stock",
+      "teslaVehicles": "Tesla Vehicles",
+      "holdings": "Holdings"
+    },
+    "summary": {
+      "rewards": "Rewards",
+      "referrals": "Referrals",
+      "achievements": "Achievements",
+      "points": "pts",
+      "lifetime": "Lifetime {{count}}",
+      "earned": "Earned {{amount}}",
+      "latest": "Latest: {{name}}",
+      "firstBadge": "Earn your first badge"
+    },
+    "actions": {
+      "fund": "Fund",
+      "invest": "Invest",
+      "withdraw": "Withdraw",
+      "documents": "Documents",
+      "support": "Support"
+    },
+    "panels": {
+      "growth": "Portfolio Growth",
+      "notifications": "Notifications",
+      "recentActivity": "Recent Activity",
+      "latestOpportunities": "Latest Opportunities",
+      "empty": {
+        "notifications": "No notifications yet.",
+        "transactions": "No transactions yet."
+      },
+      "minTarget": "Min {{min}} · {{target}} target"
+    },
+    "vsLastMonth": "vs last month"
+  },
+  "holdings": {
+    "title": "Holdings Dashboard",
+    "subtitle": "Combined view of every share you own.",
+    "backToMissionControl": "Mission Control",
+    "totalShares": "Total Shares",
+    "totalInvested": "Total Invested",
+    "marketValue": "Market Value",
+    "totalPL": "Total P/L",
+    "bestPerformer": "Best Performer",
+    "underperformer": "Underperformer",
+    "portfolioPerformance": "Portfolio Performance",
+    "allocation": "Allocation",
+    "purchaseHistory": "Purchase History",
+    "cols": {
+      "date": "Date",
+      "asset": "Asset",
+      "side": "Side",
+      "shares": "Shares",
+      "price": "Price",
+      "amount": "Amount",
+      "status": "Status"
+    },
+    "card": {
+      "shares": "Shares",
+      "avgCost": "Avg Cost",
+      "price": "Price",
+      "value": "Value",
+      "invested": "Invested",
+      "pl": "P/L"
+    },
+    "noPurchases": "No purchases yet.",
+    "total": "Total",
+    "tesla": "Tesla",
+    "spacex": "SpaceX"
+  },
+  "wallet": {
+    "title": "Wallet Center",
+    "subtitle": "Multi-currency cash balances and instant transfers.",
+    "available": "Available",
+    "status": "Status",
+    "yieldMonth": "Yield this month",
+    "deposit": "Deposit",
+    "withdraw": "Withdraw",
+    "recent": "Recent Wallet Activity",
+    "empty": "No transactions yet."
+  },
+  "funding": {
+    "title": "Funding Center",
+    "subtitle": "Move capital in and out of your investor account.",
+    "usdBalance": "USD Balance",
+    "pendingRequests": "Pending Requests",
+    "lifetimeDeposits": "Lifetime Deposits",
+    "rail": {
+      "bank": "Bank Wire",
+      "crypto": "Crypto"
+    },
+    "tab": {
+      "deposit": "Deposit",
+      "withdraw": "Withdraw"
+    },
+    "activity": "Activity",
+    "noRequests": "No requests yet.",
+    "fields": {
+      "amountUsd": "Amount (USD) *",
+      "transferDate": "Transfer date *",
+      "sendingBank": "Sending bank *",
+      "referenceNumber": "Reference number *",
+      "notes": "Notes",
+      "proof": "Proof of payment",
+      "uploadReceipt": "Upload bank receipt (PDF or image)",
+      "destinationBank": "Destination bank *",
+      "accountHolder": "Account holder *",
+      "accountIban": "Account / IBAN *",
+      "swift": "SWIFT / BIC",
+      "amountAsset": "Amount ({{asset}}) *",
+      "txHash": "Transaction hash *",
+      "destinationAddress": "Destination address *",
+      "memo": "Memo / tag (optional)"
+    },
+    "bank": {
+      "wireTo": "Wire to:",
+      "includeReference": "Include your account email as reference.",
+      "depositSubmitted": "Deposit submitted. Finance team will verify within 1 business day.",
+      "withdrawSubmitted": "Withdrawal request submitted. Compliance review starts immediately.",
+      "submitDeposit": "Submit deposit",
+      "requestWithdraw": "Request withdrawal",
+      "exceedsBalance": "Exceeds available balance ({{max}})",
+      "availableInfo": "Available: <1>{{max}}</1>. Withdrawals pass compliance → finance review before broadcast.",
+      "fillRequired": "Fill all required fields"
+    },
+    "crypto": {
+      "addressLabel": "{{label}} deposit address ({{network}}):",
+      "sendOnly": "Send only {{asset}} on {{network}}. Other assets will be lost.",
+      "noAddress": "No {{asset}} address assigned yet. Contact support — our finance team will provision one within minutes.",
+      "memoLabel": "Memo / tag:",
+      "notifyDeposit": "Notify deposit",
+      "depositSubmitted": "Deposit submitted — finance will credit once confirmed on-chain.",
+      "withdrawQueued": "Withdrawal queued — compliance review starts immediately.",
+      "amountTxRequired": "Amount and tx hash are required",
+      "amountAddrRequired": "Amount and address are required",
+      "exceedsBalance": "Exceeds balance ({{bal}} {{asset}})",
+      "availableOn": "Available: <1>{{bal}} {{asset}}</1> on {{network}}"
+    }
+  },
+  "transactions": {
+    "title": "Transaction History",
+    "subtitle": "Every deposit, withdrawal, investment, and distribution.",
+    "exportCsv": "Export CSV",
+    "searchPlaceholder": "Search transactions",
+    "cols": {
+      "ref": "Ref",
+      "date": "Date",
+      "type": "Type",
+      "status": "Status",
+      "amount": "Amount",
+      "balance": "Balance"
+    },
+    "empty": "No transactions yet.",
+    "types": {
+      "All": "All",
+      "deposit": "Deposit",
+      "withdrawal": "Withdrawal",
+      "investment": "Investment",
+      "dividend": "Dividend",
+      "adjustment": "Adjustment",
+      "fee": "Fee"
+    }
+  },
+  "invoices": {
+    "title": "Invoices & Receipts",
+    "subtitle": "Every purchase and deposit you have made. Paid invoices serve as your receipt.",
+    "tabs": {
+      "all": "All",
+      "purchase": "Purchase",
+      "deposit": "Deposit",
+      "paid": "Receipts",
+      "unpaid": "Unpaid"
+    },
+    "empty": "No invoices yet.",
+    "paidWith": "{{amount}} paid",
+    "unpaid": "Unpaid"
+  },
+  "metrics": {
+    "tslaDelta30": "مقابل S&P",
+    "tslaYtd": "تفوّق"
+  },
+  "tag": {
+    "tsla": "TSLA · ناسداك"
+  },
+  "plan": {
+    "standard": {
+      "l": "قياسي",
+      "d": "إنترنت منزلي"
+    },
+    "roam": {
+      "l": "تجوّل",
+      "d": "تنقّل عالمي"
+    },
+    "maritime": {
+      "l": "بحري",
+      "d": "تغطية في عرض البحر"
+    },
+    "aviation": {
+      "l": "طيران",
+      "d": "غيغابت أثناء الطيران",
+      "price": "مخصّص"
+    }
+  },
+  "investorCta": {
+    "eyebrow": "INVESTOR ACCESS",
+    "title": "Create your Investor Account",
+    "description": "Verify accreditation, fund your account and confirm allocations — all in one secure portal."
+  },
+  "userMenu": {
+    "signedInAs": "Signed in as",
+    "dashboard": "Dashboard",
+    "profile": "Profile"
+  }
+}

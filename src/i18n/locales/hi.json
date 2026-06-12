@@ -1,0 +1,518 @@
+{
+  "nav": {
+    "home": "होम",
+    "spacex": "SpaceX IPO",
+    "teslaStock": "टेस्ला स्टॉक",
+    "vehicles": "वाहन",
+    "starlink": "स्टारलिंक",
+    "news": "समाचार",
+    "education": "शिक्षा",
+    "about": "परिचय",
+    "contact": "संपर्क",
+    "faq": "प्रश्न"
+  },
+  "cta": {
+    "investNow": "अभी निवेश करें",
+    "contact": "संपर्क",
+    "buyShares": "SpaceX शेयर खरीदें",
+    "explore": "टेस्ला और स्टारलिंक देखें",
+    "tradeTsla": "TSLA ट्रेड करें",
+    "configureTesla": "टेस्ला कॉन्फ़िगर करें",
+    "exploreStarlink": "स्टारलिंक देखें",
+    "beginAllocation": "आवंटन शुरू करें",
+    "talkAdvisor": "सलाहकार से बात करें",
+    "readThesis": "पूरा थीसिस पढ़ें",
+    "allNews": "सभी समाचार",
+    "browseFaq": "सभी FAQ देखें",
+    "requestAccess": "पहुँच अनुरोध करें",
+    "createAccount": "Create Investor Account",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "signUp": "Create account",
+    "login": "Login",
+    "loginToInvest": "Login to invest",
+    "investorPortal": "Investor Portal",
+    "security": "Security",
+    "backToSite": "← Back to site",
+    "goToPortal": "Go to Investor Portal"
+  },
+  "common": {
+    "search": "खोजें",
+    "searchPlaceholder": "SpaceX, टेस्ला, स्टारलिंक खोजें…",
+    "menu": "मेनू",
+    "language": "भाषा",
+    "country": "देश",
+    "selectLanguage": "भाषा चुनें",
+    "selectCountry": "देश चुनें",
+    "loading": "लोड हो रहा है…",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving…",
+    "submitting": "Submitting…",
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "copy": "Copy",
+    "copied": "Copied",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "export": "Export",
+    "exportCsv": "Export CSV",
+    "viewAll": "View all",
+    "all": "All",
+    "details": "Details",
+    "status": "Status",
+    "date": "Date",
+    "amount": "Amount",
+    "type": "Type",
+    "ref": "Ref",
+    "balance": "Balance",
+    "available": "Available",
+    "pending": "Pending",
+    "completed": "Completed",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "paid": "Paid",
+    "unpaid": "Unpaid",
+    "noResults": "No results.",
+    "required": "Required",
+    "optional": "Optional",
+    "error": "Error",
+    "success": "Success",
+    "tryAgain": "Try again",
+    "filters": "Filters",
+    "showMore": "Show more",
+    "showLess": "Show less"
+  },
+  "footer": {
+    "tagline": "SpaceX प्री-IPO शेयरों, टेस्ला इक्विटी, वाहनों और स्टारलिंक सेवाओं के लिए प्रमुख डिजिटल प्रवेश द्वार — नई पीढ़ी के निवेशकों के लिए डिज़ाइन किया गया।",
+    "cols": {
+      "invest": "निवेश",
+      "commerce": "वाणिज्य",
+      "company": "कंपनी",
+      "legal": "कानूनी"
+    },
+    "links": {
+      "spacexIpo": "SpaceX IPO",
+      "teslaStock": "टेस्ला स्टॉक",
+      "whyInvest": "क्यों निवेश करें",
+      "education": "निवेशक शिक्षा",
+      "teslaVehicles": "टेस्ला वाहन",
+      "starlink": "स्टारलिंक",
+      "about": "हमारे बारे में",
+      "newsCenter": "समाचार केंद्र",
+      "contact": "संपर्क",
+      "faq": "FAQ",
+      "terms": "सेवा शर्तें",
+      "privacy": "गोपनीयता नीति"
+    },
+    "copyright": "© {{year}} SpaceX IPO Exchange. सभी प्रसारण एन्क्रिप्टेड हैं।",
+    "status": "मिशन नियंत्रण · स्थिति: सामान्य"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "प्री-IPO आवंटन खुला — राउंड 04",
+      "title1": "भविष्य की",
+      "titleAccent": "बहु-ग्रहीय",
+      "title2": "अर्थव्यवस्था में हिस्सा।",
+      "lede": "SpaceX IPO Exchange एक समर्पित मंच है जहाँ मान्यता प्राप्त निवेशक SpaceX प्री-IPO शेयर, टेस्ला इक्विटी, वाहन और स्टारलिंक कनेक्टिविटी — सभी एक सुरक्षित पारिस्थितिकी में प्राप्त कर सकते हैं।"
+    },
+    "metrics": {
+      "valuation": "अनुमानित मूल्यांकन",
+      "investors": "पंजीकृत निवेशक",
+      "capital": "तैनात पूंजी",
+      "avg": "औसत आवंटन"
+    },
+    "s01": {
+      "kicker": "01 — SPACEX क्यों",
+      "title": "पृथ्वी पर सबसे महत्वाकांक्षी निजी कंपनी।",
+      "lede": "पुनः उपयोग होने वाले रॉकेट से लेकर 7,000+ उपग्रहों के नक्षत्र तक, SpaceX अगली सदी की बुनियादी संरचना बना रहा है। IPO से पहले शुरुआती स्थिति।"
+    },
+    "features": {
+      "reusable": {
+        "t": "पुनः उपयोग योग्य अंतरिक्ष उड़ान",
+        "d": "300+ सफल फाल्कन 9 लैंडिंग ने कक्षा की लागत 10× कम कर दी।"
+      },
+      "starlink": {
+        "t": "स्टारलिंक रीढ़",
+        "d": "100+ देशों में 5M+ सक्रिय ग्राहकों वाला वैश्विक ब्रॉडबैंड नेटवर्क।"
+      },
+      "starship": {
+        "t": "स्टारशिप युग",
+        "d": "मंगल और चंद्र लॉजिस्टिक्स के लिए पूरी तरह से पुन: प्रयोज्य सुपर-हेवी आर्किटेक्चर।"
+      },
+      "value": {
+        "t": "चक्रवृद्धि मूल्यांकन",
+        "d": "2021 में $74B से 2025 में ~$420B तक — इतिहास की सबसे तेज़ मूल्य रचनाओं में।"
+      },
+      "defense": {
+        "t": "रक्षा अनुबंध",
+        "d": "NASA, USSF और सहयोगी अंतरिक्ष एजेंसियों से दीर्घकालिक सरकारी राजस्व।"
+      },
+      "stack": {
+        "t": "वर्टिकल स्टैक",
+        "d": "प्रणोदन से सिलिकॉन और ग्राउंड स्टेशनों तक — पूर्णतया स्वामित्व वाला एयरोस्पेस मंच।"
+      }
+    },
+    "s02": {
+      "kicker": "02 — पोर्टफोलियो प्रक्षेपवक्र",
+      "title": "2021 का $10,000 आवंटन आज लगभग $56,750 का है।",
+      "lede": "SpaceX के द्वितीयक बाज़ार मूल्य प्रगति पर आधारित मॉडल। पिछला प्रदर्शन भविष्य के परिणामों की गारंटी नहीं है, लेकिन प्रक्षेपवक्र स्वयं बोलता है।"
+    },
+    "s03": {
+      "kicker": "03 — टेस्ला निवेश केंद्र",
+      "title": "स्टॉक। वाहन। एक मंच।",
+      "lede": "टेस्ला इक्विटी ट्रेड करें, Model S/X/Y/3, Cybertruck या Roadster आरक्षित करें — सब कुछ एक ही डैशबोर्ड से ट्रैक करें।"
+    },
+    "s04": {
+      "kicker": "04 — स्टारलिंक मार्केटप्लेस",
+      "title": "पृथ्वी पर कहीं भी कनेक्ट करें।",
+      "lede": "स्टारलिंक हार्डवेयर खरीदें, सदस्यता प्रबंधित करें, कवरेज जाँचें और शिपमेंट ट्रैक करें — अपने पोर्टफोलियो के साथ।"
+    },
+    "s05": {
+      "kicker": "05 — निवेशकों की आवाज़",
+      "title": "नई पीढ़ी की पूंजी का भरोसा।"
+    },
+    "s06": {
+      "kicker": "06 — नवीनतम प्रसारण",
+      "title": "लॉन्चपैड से आपके पोर्टफोलियो तक।"
+    },
+    "s07": {
+      "kicker": "07 — प्रश्न",
+      "title": "अक्सर पूछे जाने वाले प्रश्न।",
+      "lede": "अपने पहले आवंटन से पहले जानने योग्य सब कुछ।"
+    },
+    "faq": {
+      "q1": "SpaceX प्री-IPO शेयरों में कौन निवेश कर सकता है?",
+      "a1": "वर्तमान में वैश्विक मान्यता प्राप्त निवेशकों के लिए खुला; संस्थागत संरचनाएँ अनुरोध पर उपलब्ध।",
+      "q2": "शेयरों की हिरासत कैसे होती है?",
+      "a2": "योग्य कस्टोडियनों के साथ रखी SPV संरचनाओं के माध्यम से; प्रत्येक आवंटन के साथ दस्तावेज़।",
+      "q3": "कौन-कौन से भुगतान तरीके समर्थित हैं?",
+      "a3": "बैंक ट्रांसफर (USD, EUR, GBP) और BTC, ETH, USDC सहित समर्थित क्रिप्टोकरेंसी।",
+      "q4": "क्या न्यूनतम निवेश राशि है?",
+      "a4": "मानक न्यूनतम $10,000 है; चुनिंदा राउंड $5,000 से उपलब्ध।"
+    },
+    "cta": {
+      "title": "मानवता के अगले अध्याय में आपकी जगह।",
+      "lede": "IPO से पहले स्थिति बनाने वाले 184,000+ निवेशकों से जुड़ें।"
+    }
+  },
+  "auth": {
+    "shellEyebrowLogin": "SECURE GATEWAY",
+    "shellEyebrowRegister": "MISSION ENROLLMENT",
+    "shellEyebrowForgot": "ACCOUNT RECOVERY",
+    "shellEyebrowSent": "RECOVERY DISPATCHED",
+    "shellEyebrowReset": "SET NEW PASSWORD",
+    "shellEyebrowVerifyWaiting": "VERIFY YOUR EMAIL",
+    "shellEyebrowVerifyDone": "VERIFIED",
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to your investor account",
+      "identifier": "Email or phone",
+      "password": "Password",
+      "remember": "Remember me",
+      "forgot": "Forgot password?",
+      "submit": "Sign in",
+      "submitting": "Signing in…",
+      "demoBanner": "DEMO ACCESS",
+      "demoDescription": "One-click sandbox accounts preloaded with sample data. For testing only.",
+      "demoInvestor": "Login as Demo Investor",
+      "demoSupport": "Login as Demo Support",
+      "demoAdmin": "Login as Demo Admin",
+      "demoPreparing": "Preparing demo…",
+      "demoSignedIn": "Signed in as Demo {{kind}}",
+      "demoFailed": "Demo sign-in failed",
+      "welcomeToast": "Welcome back",
+      "failed": "Sign-in failed",
+      "emailUnverifiedTitle": "Email not verified",
+      "emailUnverifiedDesc": "Check your inbox for the verification link."
+    },
+    "register": {
+      "title": "Open your investor account",
+      "subtitle": "Join 184,000+ investors. Verification in under 5 minutes.",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email address",
+      "phone": "Phone number",
+      "country": "Country",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "referral": "Referral code (optional)",
+      "acceptTerms": "I accept the <1>Terms of Service</1>",
+      "acceptPrivacy": "I accept the <1>Privacy Policy</1>",
+      "marketingOptIn": "Send me product updates and investment opportunities",
+      "submit": "Create account",
+      "submitting": "Creating account…",
+      "haveAccount": "Already have an account?",
+      "createdTitle": "Account created",
+      "createdDesc": "Check your inbox to verify your email.",
+      "existsTitle": "Account exists",
+      "existsDesc": "An account with this email already exists. Try signing in.",
+      "failed": "Registration failed"
+    },
+    "forgot": {
+      "title": "Reset your password",
+      "subtitle": "Enter your email to receive a secure recovery link.",
+      "submit": "Send reset link",
+      "submitting": "Sending…",
+      "backToLogin": "Back to sign in",
+      "sentTitle": "Check your email",
+      "sentBody": "If an account exists, we've sent a password reset link. The link expires in 60 minutes.",
+      "failed": "Could not send reset link"
+    },
+    "reset": {
+      "title": "Choose a new password",
+      "subtitle": "Make it strong — your assets depend on it.",
+      "newPassword": "New password",
+      "confirm": "Confirm password",
+      "submit": "Update password",
+      "submitting": "Updating…",
+      "openFromLink": "Open this page from the link in your recovery email.",
+      "doneTitle": "Password updated",
+      "redirecting": "Redirecting to sign in…",
+      "failed": "Could not update password"
+    },
+    "verify": {
+      "title": "Check your inbox",
+      "subtitleWithEmail": "We sent a link to {{email}}",
+      "subtitleNoEmail": "We sent you a verification link.",
+      "instruction": "Click the link in your email to activate your investor account. The link expires in 24 hours.",
+      "resend": "Resend verification email",
+      "back": "Back to sign in",
+      "doneTitle": "Email verified",
+      "doneBody": "Your email is confirmed. You can continue to your account.",
+      "goAccount": "Go to my account",
+      "resendFailed": "Could not resend",
+      "resendSuccess": "Verification email sent"
+    }
+  },
+  "dashboard": {
+    "portal": "INVESTOR PORTAL",
+    "title": "Mission Control",
+    "subtitle": "Your investor overview at a glance.",
+    "stats": {
+      "portfolioValue": "Portfolio Value",
+      "sharesOwned": "Shares Owned",
+      "pending": "Pending",
+      "wallet": "Wallet"
+    },
+    "quickLinks": {
+      "spacexStock": "SpaceX Stock",
+      "teslaStock": "Tesla Stock",
+      "teslaVehicles": "Tesla Vehicles",
+      "holdings": "Holdings"
+    },
+    "summary": {
+      "rewards": "Rewards",
+      "referrals": "Referrals",
+      "achievements": "Achievements",
+      "points": "pts",
+      "lifetime": "Lifetime {{count}}",
+      "earned": "Earned {{amount}}",
+      "latest": "Latest: {{name}}",
+      "firstBadge": "Earn your first badge"
+    },
+    "actions": {
+      "fund": "Fund",
+      "invest": "Invest",
+      "withdraw": "Withdraw",
+      "documents": "Documents",
+      "support": "Support"
+    },
+    "panels": {
+      "growth": "Portfolio Growth",
+      "notifications": "Notifications",
+      "recentActivity": "Recent Activity",
+      "latestOpportunities": "Latest Opportunities",
+      "empty": {
+        "notifications": "No notifications yet.",
+        "transactions": "No transactions yet."
+      },
+      "minTarget": "Min {{min}} · {{target}} target"
+    },
+    "vsLastMonth": "vs last month"
+  },
+  "holdings": {
+    "title": "Holdings Dashboard",
+    "subtitle": "Combined view of every share you own.",
+    "backToMissionControl": "Mission Control",
+    "totalShares": "Total Shares",
+    "totalInvested": "Total Invested",
+    "marketValue": "Market Value",
+    "totalPL": "Total P/L",
+    "bestPerformer": "Best Performer",
+    "underperformer": "Underperformer",
+    "portfolioPerformance": "Portfolio Performance",
+    "allocation": "Allocation",
+    "purchaseHistory": "Purchase History",
+    "cols": {
+      "date": "Date",
+      "asset": "Asset",
+      "side": "Side",
+      "shares": "Shares",
+      "price": "Price",
+      "amount": "Amount",
+      "status": "Status"
+    },
+    "card": {
+      "shares": "Shares",
+      "avgCost": "Avg Cost",
+      "price": "Price",
+      "value": "Value",
+      "invested": "Invested",
+      "pl": "P/L"
+    },
+    "noPurchases": "No purchases yet.",
+    "total": "Total",
+    "tesla": "Tesla",
+    "spacex": "SpaceX"
+  },
+  "wallet": {
+    "title": "Wallet Center",
+    "subtitle": "Multi-currency cash balances and instant transfers.",
+    "available": "Available",
+    "status": "Status",
+    "yieldMonth": "Yield this month",
+    "deposit": "Deposit",
+    "withdraw": "Withdraw",
+    "recent": "Recent Wallet Activity",
+    "empty": "No transactions yet."
+  },
+  "funding": {
+    "title": "Funding Center",
+    "subtitle": "Move capital in and out of your investor account.",
+    "usdBalance": "USD Balance",
+    "pendingRequests": "Pending Requests",
+    "lifetimeDeposits": "Lifetime Deposits",
+    "rail": {
+      "bank": "Bank Wire",
+      "crypto": "Crypto"
+    },
+    "tab": {
+      "deposit": "Deposit",
+      "withdraw": "Withdraw"
+    },
+    "activity": "Activity",
+    "noRequests": "No requests yet.",
+    "fields": {
+      "amountUsd": "Amount (USD) *",
+      "transferDate": "Transfer date *",
+      "sendingBank": "Sending bank *",
+      "referenceNumber": "Reference number *",
+      "notes": "Notes",
+      "proof": "Proof of payment",
+      "uploadReceipt": "Upload bank receipt (PDF or image)",
+      "destinationBank": "Destination bank *",
+      "accountHolder": "Account holder *",
+      "accountIban": "Account / IBAN *",
+      "swift": "SWIFT / BIC",
+      "amountAsset": "Amount ({{asset}}) *",
+      "txHash": "Transaction hash *",
+      "destinationAddress": "Destination address *",
+      "memo": "Memo / tag (optional)"
+    },
+    "bank": {
+      "wireTo": "Wire to:",
+      "includeReference": "Include your account email as reference.",
+      "depositSubmitted": "Deposit submitted. Finance team will verify within 1 business day.",
+      "withdrawSubmitted": "Withdrawal request submitted. Compliance review starts immediately.",
+      "submitDeposit": "Submit deposit",
+      "requestWithdraw": "Request withdrawal",
+      "exceedsBalance": "Exceeds available balance ({{max}})",
+      "availableInfo": "Available: <1>{{max}}</1>. Withdrawals pass compliance → finance review before broadcast.",
+      "fillRequired": "Fill all required fields"
+    },
+    "crypto": {
+      "addressLabel": "{{label}} deposit address ({{network}}):",
+      "sendOnly": "Send only {{asset}} on {{network}}. Other assets will be lost.",
+      "noAddress": "No {{asset}} address assigned yet. Contact support — our finance team will provision one within minutes.",
+      "memoLabel": "Memo / tag:",
+      "notifyDeposit": "Notify deposit",
+      "depositSubmitted": "Deposit submitted — finance will credit once confirmed on-chain.",
+      "withdrawQueued": "Withdrawal queued — compliance review starts immediately.",
+      "amountTxRequired": "Amount and tx hash are required",
+      "amountAddrRequired": "Amount and address are required",
+      "exceedsBalance": "Exceeds balance ({{bal}} {{asset}})",
+      "availableOn": "Available: <1>{{bal}} {{asset}}</1> on {{network}}"
+    }
+  },
+  "transactions": {
+    "title": "Transaction History",
+    "subtitle": "Every deposit, withdrawal, investment, and distribution.",
+    "exportCsv": "Export CSV",
+    "searchPlaceholder": "Search transactions",
+    "cols": {
+      "ref": "Ref",
+      "date": "Date",
+      "type": "Type",
+      "status": "Status",
+      "amount": "Amount",
+      "balance": "Balance"
+    },
+    "empty": "No transactions yet.",
+    "types": {
+      "All": "All",
+      "deposit": "Deposit",
+      "withdrawal": "Withdrawal",
+      "investment": "Investment",
+      "dividend": "Dividend",
+      "adjustment": "Adjustment",
+      "fee": "Fee"
+    }
+  },
+  "invoices": {
+    "title": "Invoices & Receipts",
+    "subtitle": "Every purchase and deposit you have made. Paid invoices serve as your receipt.",
+    "tabs": {
+      "all": "All",
+      "purchase": "Purchase",
+      "deposit": "Deposit",
+      "paid": "Receipts",
+      "unpaid": "Unpaid"
+    },
+    "empty": "No invoices yet.",
+    "paidWith": "{{amount}} paid",
+    "unpaid": "Unpaid"
+  },
+  "metrics": {
+    "tslaDelta30": "S&P के मुकाबले",
+    "tslaYtd": "बेहतर प्रदर्शन"
+  },
+  "tag": {
+    "tsla": "TSLA · NASDAQ"
+  },
+  "plan": {
+    "standard": {
+      "l": "मानक",
+      "d": "आवासीय ब्रॉडबैंड"
+    },
+    "roam": {
+      "l": "रोम",
+      "d": "वैश्विक गतिशीलता"
+    },
+    "maritime": {
+      "l": "समुद्री",
+      "d": "खुले समुद्र कवरेज"
+    },
+    "aviation": {
+      "l": "विमानन",
+      "d": "उड़ान में गिगाबिट",
+      "price": "कस्टम"
+    }
+  },
+  "investorCta": {
+    "eyebrow": "INVESTOR ACCESS",
+    "title": "Create your Investor Account",
+    "description": "Verify accreditation, fund your account and confirm allocations — all in one secure portal."
+  },
+  "userMenu": {
+    "signedInAs": "Signed in as",
+    "dashboard": "Dashboard",
+    "profile": "Profile"
+  }
+}

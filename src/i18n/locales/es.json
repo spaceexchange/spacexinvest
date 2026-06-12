@@ -1,0 +1,518 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "spacex": "OPI SpaceX",
+    "teslaStock": "Acción Tesla",
+    "vehicles": "Vehículos",
+    "starlink": "Starlink",
+    "news": "Noticias",
+    "education": "Formación",
+    "about": "Acerca",
+    "contact": "Contacto",
+    "faq": "FAQ"
+  },
+  "cta": {
+    "investNow": "Invertir ahora",
+    "contact": "Contacto",
+    "buyShares": "Comprar acciones SpaceX",
+    "explore": "Explorar Tesla y Starlink",
+    "tradeTsla": "Operar TSLA",
+    "configureTesla": "Configurar un Tesla",
+    "exploreStarlink": "Explorar Starlink",
+    "beginAllocation": "Iniciar asignación",
+    "talkAdvisor": "Hablar con un asesor",
+    "readThesis": "Leer tesis completa",
+    "allNews": "Todas las noticias",
+    "browseFaq": "Ver todas las FAQ",
+    "requestAccess": "Solicitar acceso",
+    "createAccount": "Create Investor Account",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "signUp": "Create account",
+    "login": "Iniciar sesión",
+    "loginToInvest": "Inicia sesión para invertir",
+    "investorPortal": "Portal del inversor",
+    "security": "Seguridad",
+    "backToSite": "← Volver al sitio",
+    "goToPortal": "Ir al portal del inversor"
+  },
+  "common": {
+    "search": "Buscar",
+    "searchPlaceholder": "Buscar SpaceX, Tesla, Starlink…",
+    "menu": "Menú",
+    "language": "Idioma",
+    "country": "País",
+    "selectLanguage": "Seleccionar idioma",
+    "selectCountry": "Seleccionar país",
+    "loading": "Cargando…",
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "saving": "Guardando…",
+    "submitting": "Enviando…",
+    "continue": "Continuar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "close": "Cerrar",
+    "yes": "Sí",
+    "no": "No",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "confirm": "Confirmar",
+    "export": "Exportar",
+    "exportCsv": "Exportar CSV",
+    "viewAll": "Ver todo",
+    "all": "Todos",
+    "details": "Detalles",
+    "status": "Estado",
+    "date": "Fecha",
+    "amount": "Importe",
+    "type": "Tipo",
+    "ref": "Ref",
+    "balance": "Saldo",
+    "available": "Disponible",
+    "pending": "Pendiente",
+    "completed": "Completado",
+    "approved": "Aprobado",
+    "rejected": "Rechazado",
+    "paid": "Pagado",
+    "unpaid": "Pendiente",
+    "noResults": "Sin resultados.",
+    "required": "Requerido",
+    "optional": "Opcional",
+    "error": "Error",
+    "success": "Éxito",
+    "tryAgain": "Reintentar",
+    "filters": "Filtros",
+    "showMore": "Ver más",
+    "showLess": "Ver menos"
+  },
+  "footer": {
+    "tagline": "La puerta de entrada digital líder a acciones pre-IPO de SpaceX, capital Tesla, vehículos y servicios Starlink — diseñada para la próxima generación de inversores.",
+    "cols": {
+      "invest": "Invertir",
+      "commerce": "Comercio",
+      "company": "Compañía",
+      "legal": "Legal"
+    },
+    "links": {
+      "spacexIpo": "OPI SpaceX",
+      "teslaStock": "Acción Tesla",
+      "whyInvest": "Por qué invertir",
+      "education": "Educación inversor",
+      "teslaVehicles": "Vehículos Tesla",
+      "starlink": "Starlink",
+      "about": "Sobre nosotros",
+      "newsCenter": "Centro de noticias",
+      "contact": "Contacto",
+      "faq": "FAQ",
+      "terms": "Términos de servicio",
+      "privacy": "Política de privacidad"
+    },
+    "copyright": "© {{year}} SpaceX IPO Exchange. Todas las transmisiones cifradas.",
+    "status": "CONTROL DE MISIÓN · ESTADO: NOMINAL"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "ASIGNACIÓN PRE-IPO ABIERTA — RONDA 04",
+      "title1": "Posee una participación en la",
+      "titleAccent": "multiplanetaria",
+      "title2": "economía.",
+      "lede": "SpaceX IPO Exchange es la plataforma dedicada para que inversores acreditados adquieran acciones pre-IPO de SpaceX, capital Tesla, vehículos y conectividad Starlink — todo en un ecosistema seguro."
+    },
+    "metrics": {
+      "valuation": "Valoración implícita",
+      "investors": "Inversores incorporados",
+      "capital": "Capital desplegado",
+      "avg": "Asignación promedio"
+    },
+    "s01": {
+      "kicker": "01 — POR QUÉ SPACEX",
+      "title": "La empresa privada más ambiciosa del mundo.",
+      "lede": "De cohetes reutilizables a una constelación de más de 7.000 satélites, SpaceX construye la infraestructura del próximo siglo. Posición temprana antes de la OPI."
+    },
+    "features": {
+      "reusable": {
+        "t": "Vuelos espaciales reutilizables",
+        "d": "Más de 300 aterrizajes exitosos del Falcon 9 han reducido el coste de la órbita 10×."
+      },
+      "starlink": {
+        "t": "Columna vertebral Starlink",
+        "d": "Una red global de banda ancha con más de 5 M de suscriptores en 100+ países."
+      },
+      "starship": {
+        "t": "Era Starship",
+        "d": "Arquitectura super-pesada totalmente reutilizable orientada a Marte y la Luna."
+      },
+      "value": {
+        "t": "Valoración compuesta",
+        "d": "De 74.000 M$ en 2021 a ~420.000 M$ en 2025 — una de las creaciones de valor más rápidas de la historia."
+      },
+      "defense": {
+        "t": "Contratos de defensa",
+        "d": "Ingresos gubernamentales sostenidos de NASA, USSF y agencias aliadas."
+      },
+      "stack": {
+        "t": "Integración vertical",
+        "d": "Desde propulsión hasta silicio y estaciones terrestres — una plataforma aeroespacial totalmente propia."
+      }
+    },
+    "s02": {
+      "kicker": "02 — TRAYECTORIA DE LA CARTERA",
+      "title": "Una asignación de 10.000 $ en 2021 vale hoy ~56.750 $.",
+      "lede": "Modelado sobre la evolución del precio de SpaceX en el mercado secundario. El rendimiento pasado no garantiza resultados futuros, pero la trayectoria habla por sí sola."
+    },
+    "s03": {
+      "kicker": "03 — CENTRO DE INVERSIÓN TESLA",
+      "title": "Acción. Vehículos. Una plataforma.",
+      "lede": "Opera la acción de Tesla, reserva un Model S, X, Y, 3, Cybertruck o Roadster — y sigue todo desde un mismo panel."
+    },
+    "s04": {
+      "kicker": "04 — MERCADO STARLINK",
+      "title": "Conéctate en cualquier parte del mundo.",
+      "lede": "Compra hardware Starlink, gestiona suscripciones, comprueba cobertura y sigue envíos — junto a tu cartera."
+    },
+    "s05": {
+      "kicker": "05 — VOCES DE INVERSORES",
+      "title": "Confianza de la nueva generación de capital."
+    },
+    "s06": {
+      "kicker": "06 — ÚLTIMAS TRANSMISIONES",
+      "title": "De la plataforma de lanzamiento a tu cartera."
+    },
+    "s07": {
+      "kicker": "07 — PREGUNTAS",
+      "title": "Preguntas frecuentes.",
+      "lede": "Todo lo necesario antes de tu primera asignación."
+    },
+    "faq": {
+      "q1": "¿Quién puede invertir en acciones pre-IPO de SpaceX?",
+      "a1": "Actualmente abierto a inversores acreditados a nivel global; estructuras institucionales bajo solicitud.",
+      "q2": "¿Cómo se custodian las acciones?",
+      "a2": "Mediante estructuras SPV con custodios cualificados; se entrega documentación por asignación.",
+      "q3": "¿Qué métodos de pago se admiten?",
+      "a3": "Transferencias bancarias (USD, EUR, GBP) y criptomonedas como BTC, ETH y USDC.",
+      "q4": "¿Hay una inversión mínima?",
+      "a4": "El mínimo estándar es de 10 000 $, con rondas seleccionadas desde 5 000 $."
+    },
+    "cta": {
+      "title": "Tu lugar en el próximo capítulo de la humanidad.",
+      "lede": "Únete a más de 184.000 inversores que se posicionan antes de la OPI."
+    }
+  },
+  "auth": {
+    "shellEyebrowLogin": "ACCESO SEGURO",
+    "shellEyebrowRegister": "REGISTRO",
+    "shellEyebrowForgot": "ACCOUNT RECOVERY",
+    "shellEyebrowSent": "RECOVERY DISPATCHED",
+    "shellEyebrowReset": "SET NEW PASSWORD",
+    "shellEyebrowVerifyWaiting": "VERIFY YOUR EMAIL",
+    "shellEyebrowVerifyDone": "VERIFIED",
+    "login": {
+      "title": "Bienvenido de nuevo",
+      "subtitle": "Inicia sesión en tu cuenta de inversor",
+      "identifier": "Correo o teléfono",
+      "password": "Contraseña",
+      "remember": "Recordarme",
+      "forgot": "¿Olvidaste tu contraseña?",
+      "submit": "Iniciar sesión",
+      "submitting": "Iniciando sesión…",
+      "demoBanner": "DEMO ACCESS",
+      "demoDescription": "One-click sandbox accounts preloaded with sample data. For testing only.",
+      "demoInvestor": "Login as Demo Investor",
+      "demoSupport": "Login as Demo Support",
+      "demoAdmin": "Login as Demo Admin",
+      "demoPreparing": "Preparing demo…",
+      "demoSignedIn": "Signed in as Demo {{kind}}",
+      "demoFailed": "Demo sign-in failed",
+      "welcomeToast": "Bienvenido de nuevo",
+      "failed": "Error al iniciar sesión",
+      "emailUnverifiedTitle": "Email not verified",
+      "emailUnverifiedDesc": "Check your inbox for the verification link."
+    },
+    "register": {
+      "title": "Abre tu cuenta de inversor",
+      "subtitle": "Únete a 184 000+ inversores. Verificación en menos de 5 minutos.",
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "country": "País",
+      "password": "Contraseña",
+      "confirmPassword": "Confirmar contraseña",
+      "referral": "Referral code (optional)",
+      "acceptTerms": "I accept the <1>Terms of Service</1>",
+      "acceptPrivacy": "I accept the <1>Privacy Policy</1>",
+      "marketingOptIn": "Send me product updates and investment opportunities",
+      "submit": "Crear cuenta",
+      "submitting": "Creando cuenta…",
+      "haveAccount": "¿Ya tienes cuenta?",
+      "createdTitle": "Account created",
+      "createdDesc": "Check your inbox to verify your email.",
+      "existsTitle": "Account exists",
+      "existsDesc": "An account with this email already exists. Try signing in.",
+      "failed": "Registration failed"
+    },
+    "forgot": {
+      "title": "Reset your password",
+      "subtitle": "Enter your email to receive a secure recovery link.",
+      "submit": "Send reset link",
+      "submitting": "Sending…",
+      "backToLogin": "Back to sign in",
+      "sentTitle": "Check your email",
+      "sentBody": "If an account exists, we've sent a password reset link. The link expires in 60 minutes.",
+      "failed": "Could not send reset link"
+    },
+    "reset": {
+      "title": "Choose a new password",
+      "subtitle": "Make it strong — your assets depend on it.",
+      "newPassword": "New password",
+      "confirm": "Confirm password",
+      "submit": "Update password",
+      "submitting": "Updating…",
+      "openFromLink": "Open this page from the link in your recovery email.",
+      "doneTitle": "Password updated",
+      "redirecting": "Redirecting to sign in…",
+      "failed": "Could not update password"
+    },
+    "verify": {
+      "title": "Check your inbox",
+      "subtitleWithEmail": "We sent a link to {{email}}",
+      "subtitleNoEmail": "We sent you a verification link.",
+      "instruction": "Click the link in your email to activate your investor account. The link expires in 24 hours.",
+      "resend": "Resend verification email",
+      "back": "Back to sign in",
+      "doneTitle": "Email verified",
+      "doneBody": "Your email is confirmed. You can continue to your account.",
+      "goAccount": "Go to my account",
+      "resendFailed": "Could not resend",
+      "resendSuccess": "Verification email sent"
+    }
+  },
+  "dashboard": {
+    "portal": "PORTAL DEL INVERSOR",
+    "title": "Centro de control",
+    "subtitle": "Tu visión general de un vistazo.",
+    "stats": {
+      "portfolioValue": "Valor de cartera",
+      "sharesOwned": "Acciones poseídas",
+      "pending": "Pendiente",
+      "wallet": "Cartera"
+    },
+    "quickLinks": {
+      "spacexStock": "SpaceX Stock",
+      "teslaStock": "Tesla Stock",
+      "teslaVehicles": "Tesla Vehicles",
+      "holdings": "Holdings"
+    },
+    "summary": {
+      "rewards": "Rewards",
+      "referrals": "Referrals",
+      "achievements": "Achievements",
+      "points": "pts",
+      "lifetime": "Lifetime {{count}}",
+      "earned": "Earned {{amount}}",
+      "latest": "Latest: {{name}}",
+      "firstBadge": "Earn your first badge"
+    },
+    "actions": {
+      "fund": "Fund",
+      "invest": "Invest",
+      "withdraw": "Withdraw",
+      "documents": "Documents",
+      "support": "Support"
+    },
+    "panels": {
+      "growth": "Portfolio Growth",
+      "notifications": "Notifications",
+      "recentActivity": "Recent Activity",
+      "latestOpportunities": "Latest Opportunities",
+      "empty": {
+        "notifications": "No notifications yet.",
+        "transactions": "No transactions yet."
+      },
+      "minTarget": "Min {{min}} · {{target}} target"
+    },
+    "vsLastMonth": "vs last month"
+  },
+  "holdings": {
+    "title": "Panel de tenencias",
+    "subtitle": "Vista combinada de cada acción que posees.",
+    "backToMissionControl": "Mission Control",
+    "totalShares": "Total Shares",
+    "totalInvested": "Total Invested",
+    "marketValue": "Market Value",
+    "totalPL": "Total P/L",
+    "bestPerformer": "Best Performer",
+    "underperformer": "Underperformer",
+    "portfolioPerformance": "Portfolio Performance",
+    "allocation": "Allocation",
+    "purchaseHistory": "Purchase History",
+    "cols": {
+      "date": "Date",
+      "asset": "Asset",
+      "side": "Side",
+      "shares": "Shares",
+      "price": "Price",
+      "amount": "Amount",
+      "status": "Status"
+    },
+    "card": {
+      "shares": "Shares",
+      "avgCost": "Avg Cost",
+      "price": "Price",
+      "value": "Value",
+      "invested": "Invested",
+      "pl": "P/L"
+    },
+    "noPurchases": "No purchases yet.",
+    "total": "Total",
+    "tesla": "Tesla",
+    "spacex": "SpaceX"
+  },
+  "wallet": {
+    "title": "Cartera",
+    "subtitle": "Saldos multidivisa y transferencias instantáneas.",
+    "available": "Available",
+    "status": "Status",
+    "yieldMonth": "Yield this month",
+    "deposit": "Deposit",
+    "withdraw": "Withdraw",
+    "recent": "Recent Wallet Activity",
+    "empty": "No transactions yet."
+  },
+  "funding": {
+    "title": "Centro de fondos",
+    "subtitle": "Mueve capital de entrada y salida.",
+    "usdBalance": "Saldo USD",
+    "pendingRequests": "Solicitudes pendientes",
+    "lifetimeDeposits": "Depósitos acumulados",
+    "rail": {
+      "bank": "Transferencia",
+      "crypto": "Cripto"
+    },
+    "tab": {
+      "deposit": "Depósito",
+      "withdraw": "Retirar"
+    },
+    "activity": "Actividad",
+    "noRequests": "Sin solicitudes.",
+    "fields": {
+      "amountUsd": "Amount (USD) *",
+      "transferDate": "Transfer date *",
+      "sendingBank": "Sending bank *",
+      "referenceNumber": "Reference number *",
+      "notes": "Notes",
+      "proof": "Proof of payment",
+      "uploadReceipt": "Upload bank receipt (PDF or image)",
+      "destinationBank": "Destination bank *",
+      "accountHolder": "Account holder *",
+      "accountIban": "Account / IBAN *",
+      "swift": "SWIFT / BIC",
+      "amountAsset": "Amount ({{asset}}) *",
+      "txHash": "Transaction hash *",
+      "destinationAddress": "Destination address *",
+      "memo": "Memo / tag (optional)"
+    },
+    "bank": {
+      "wireTo": "Wire to:",
+      "includeReference": "Include your account email as reference.",
+      "depositSubmitted": "Deposit submitted. Finance team will verify within 1 business day.",
+      "withdrawSubmitted": "Withdrawal request submitted. Compliance review starts immediately.",
+      "submitDeposit": "Submit deposit",
+      "requestWithdraw": "Request withdrawal",
+      "exceedsBalance": "Exceeds available balance ({{max}})",
+      "availableInfo": "Available: <1>{{max}}</1>. Withdrawals pass compliance → finance review before broadcast.",
+      "fillRequired": "Fill all required fields"
+    },
+    "crypto": {
+      "addressLabel": "{{label}} deposit address ({{network}}):",
+      "sendOnly": "Send only {{asset}} on {{network}}. Other assets will be lost.",
+      "noAddress": "No {{asset}} address assigned yet. Contact support — our finance team will provision one within minutes.",
+      "memoLabel": "Memo / tag:",
+      "notifyDeposit": "Notify deposit",
+      "depositSubmitted": "Deposit submitted — finance will credit once confirmed on-chain.",
+      "withdrawQueued": "Withdrawal queued — compliance review starts immediately.",
+      "amountTxRequired": "Amount and tx hash are required",
+      "amountAddrRequired": "Amount and address are required",
+      "exceedsBalance": "Exceeds balance ({{bal}} {{asset}})",
+      "availableOn": "Available: <1>{{bal}} {{asset}}</1> on {{network}}"
+    }
+  },
+  "transactions": {
+    "title": "Historial de transacciones",
+    "subtitle": "Cada depósito, retirada, inversión y distribución.",
+    "exportCsv": "Export CSV",
+    "searchPlaceholder": "Search transactions",
+    "cols": {
+      "ref": "Ref",
+      "date": "Date",
+      "type": "Type",
+      "status": "Status",
+      "amount": "Amount",
+      "balance": "Balance"
+    },
+    "empty": "No transactions yet.",
+    "types": {
+      "All": "All",
+      "deposit": "Deposit",
+      "withdrawal": "Withdrawal",
+      "investment": "Investment",
+      "dividend": "Dividend",
+      "adjustment": "Adjustment",
+      "fee": "Fee"
+    }
+  },
+  "invoices": {
+    "title": "Facturas y recibos",
+    "subtitle": "Todas tus compras y depósitos. Las facturas pagadas sirven como recibo.",
+    "tabs": {
+      "all": "All",
+      "purchase": "Purchase",
+      "deposit": "Deposit",
+      "paid": "Receipts",
+      "unpaid": "Unpaid"
+    },
+    "empty": "No invoices yet.",
+    "paidWith": "{{amount}} paid",
+    "unpaid": "Unpaid"
+  },
+  "metrics": {
+    "tslaDelta30": "vs S&P",
+    "tslaYtd": "superación"
+  },
+  "tag": {
+    "tsla": "TSLA · NASDAQ"
+  },
+  "plan": {
+    "standard": {
+      "l": "Estándar",
+      "d": "Banda ancha residencial"
+    },
+    "roam": {
+      "l": "Roam",
+      "d": "Movilidad global"
+    },
+    "maritime": {
+      "l": "Marítimo",
+      "d": "Cobertura en alta mar"
+    },
+    "aviation": {
+      "l": "Aviación",
+      "d": "Gigabit en vuelo",
+      "price": "Personalizado"
+    }
+  },
+  "investorCta": {
+    "eyebrow": "ACCESO INVERSOR",
+    "title": "Crea tu cuenta de inversor",
+    "description": "Verifica tu acreditación, fondea tu cuenta y confirma asignaciones — en un único portal seguro."
+  },
+  "userMenu": {
+    "signedInAs": "Sesión iniciada como",
+    "dashboard": "Panel",
+    "profile": "Perfil"
+  }
+}
