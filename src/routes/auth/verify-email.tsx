@@ -18,6 +18,7 @@ function VerifyEmailPage() {
   const [status, setStatus] = useState<"waiting" | "verified">("waiting");
   const [resending, setResending] = useState(false);
   const [email, setEmail] = useState<string | null>(null);
+  const [otp, setOtp] = useState("");
 
   useEffect(() => {
     supabase.auth.getUser().then(({ data }) => {
@@ -36,6 +37,27 @@ function VerifyEmailPage() {
     return () => sub.subscription.unsubscribe();
   }, []);
 
+  async function verifyOtp() {
+  if (!email || !otp) return;
+
+  const { error } = await supabase.auth.verifyOtp({
+    email,
+    token: otp,
+    type: "signup",
+  });
+
+  if (error) {
+    toast.error(error.message);
+    return;
+  }
+
+  toast.success("Email verified successfully");
+
+  navigate({
+    to: "/account/dashboard",
+  });
+}
+  
   async function resend() {
     if (!email) return;
     setResending(true);
@@ -72,6 +94,22 @@ function VerifyEmailPage() {
           </div>
           <p className="text-sm text-muted-foreground">{t("auth.verify.instruction")}</p>
         </div>
+         
+        <input
+         type="text"
+         placeholder="Enter 6-digit code"
+         value={otp}
+         onChange={(e) => setOtp(e.target.value)}
+         className="w-full rounded-lg border border-white/20 bg-black/20 p-3 text-center text-xl tracking-widest"
+        />
+        
+        <button
+         onClick={verifyOtp}
+         className="btn-primary w-full"
+        >
+          Verify Code
+        </button>
+
         <button onClick={resend} disabled={resending || !email} className="btn-ghost w-full">
           {resending ? <Loader2 className="h-4 w-4 animate-spin" /> : t("auth.verify.resend")}
         </button>
