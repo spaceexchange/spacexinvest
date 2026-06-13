@@ -56,7 +56,7 @@ function RegisterPage() {
       return;
     }
     toast.success(t("auth.register.createdTitle"), { description: t("auth.register.createdDesc") });
-    navigate({ to: "/auth/account-created", search: { email: values.email } });
+    navigate({ to: "/auth/verify-email" });
   }
 
   return (

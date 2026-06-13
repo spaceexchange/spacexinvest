@@ -92,7 +92,8 @@ function VerifyEmailPage() {
           <div className="h-14 w-14 rounded-full bg-accent-blue/10 grid place-items-center">
             <Mail className="h-6 w-6 text-accent-blue" />
           </div>
-          <p className="text-sm text-muted-foreground">{t("auth.verify.instruction")}</p>
+          <p className="text-sm text-muted-foreground">
+            Enter the 6-digit verification code sent to your email address.</p>
         </div>
          
         <input
