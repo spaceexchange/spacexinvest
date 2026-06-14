@@ -1,121 +1,132 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import { Mail, CheckCircle2, Loader2 } from "lucide-react";
+import { ShieldCheck, Loader2 } from "lucide-react";
 import { toast } from "sonner";
-import { useTranslation } from "react-i18next";
+import { z } from "zod";
 import { AuthShell } from "@/components/auth/AuthShell";
+import { InputOTP, InputOTPGroup, InputOTPSlot } from "@/components/ui/input-otp";
 import { supabase } from "@/integrations/supabase/client";
-import { recordSecurityEvent } from "@/lib/auth/device";
+import { recordSecurityEvent, trackDevice } from "@/lib/auth/device";
+import { getRedirectAfterLogin } from "@/lib/auth/roles";
+
+const search = z.object({ email: z.string().optional() });
 
 export const Route = createFileRoute("/auth/verify-email")({
+  validateSearch: search,
   head: () => ({ meta: [{ title: "Verify email — SpaceX IPO Exchange" }] }),
   component: VerifyEmailPage,
 });
 
 function VerifyEmailPage() {
-  const { t } = useTranslation();
   const navigate = useNavigate();
-  const [status, setStatus] = useState<"waiting" | "verified">("waiting");
+  const { email: emailParam } = Route.useSearch();
+  const [email, setEmail] = useState<string>(emailParam ?? "");
+  const [code, setCode] = useState("");
+  const [verifying, setVerifying] = useState(false);
   const [resending, setResending] = useState(false);
-  const [email, setEmail] = useState<string | null>(null);
-  const [otp, setOtp] = useState("");
 
   useEffect(() => {
-    supabase.auth.getUser().then(({ data }) => {
-      setEmail(data.user?.email ?? null);
-      if (data.user?.email_confirmed_at) setStatus("verified");
-    });
-    const { data: sub } = supabase.auth.onAuthStateChange(async (event, session) => {
-      if (event === "SIGNED_IN" && session?.user?.email_confirmed_at) {
-        setStatus("verified");
-        await recordSecurityEvent(session.user.id, "email_verified");
-      }
-      if (event === "USER_UPDATED" && session?.user?.email_confirmed_at) {
-        setStatus("verified");
-      }
-    });
-    return () => sub.subscription.unsubscribe();
-  }, []);
+    if (!emailParam) {
+      supabase.auth.getUser().then(({ data }) => {
+        if (data.user?.email) setEmail(data.user.email);
+      });
+    }
+  }, [emailParam]);
 
-  async function verifyOtp() {
-  if (!email || !otp) return;
-
-  const { error } = await supabase.auth.verifyOtp({
-    email,
-    token: otp,
-    type: "signup",
-  });
-
-  if (error) {
-    toast.error(error.message);
-    return;
+  async function verify(token: string) {
+    if (!email) {
+      toast.error("Enter your email address first");
+      return;
+    }
+    setVerifying(true);
+    const { data, error } = await supabase.auth.verifyOtp({ email, token, type: "email" });
+    setVerifying(false);
+    if (error) {
+      toast.error("Invalid or expired code", { description: error.message });
+      setCode("");
+      return;
+    }
+    if (data.user) {
+      await Promise.all([
+        recordSecurityEvent(data.user.id, "email_verified"),
+        trackDevice(data.user.id),
+      ]);
+      toast.success("Email verified");
+      const dest = await getRedirectAfterLogin(data.user.id);
+      navigate({ to: dest });
+    }
   }
 
-  toast.success("Email verified successfully");
-
-  navigate({
-    to: "/account/dashboard",
-  });
-}
-  
   async function resend() {
-    if (!email) return;
+    if (!email) {
+      toast.error("Enter your email address first");
+      return;
+    }
     setResending(true);
     const { error } = await supabase.auth.resend({ type: "signup", email });
     setResending(false);
-    if (error) toast.error(t("auth.verify.resendFailed"), { description: error.message });
-    else toast.success(t("auth.verify.resendSuccess"));
-  }
-
-  if (status === "verified") {
-    return (
-      <AuthShell eyebrow={t("auth.shellEyebrowVerifyDone")} title={t("auth.verify.doneTitle")}>
-        <div className="text-center space-y-4">
-          <CheckCircle2 className="h-14 w-14 text-emerald-400 mx-auto" />
-          <p className="text-sm text-muted-foreground">{t("auth.verify.doneBody")}</p>
-          <button onClick={() => navigate({ to: "/account/dashboard" })} className="btn-primary w-full">
-            {t("auth.verify.goAccount")}
-          </button>
-        </div>
-      </AuthShell>
-    );
+    if (error) toast.error("Could not resend code", { description: error.message });
+    else toast.success("New code sent");
   }
 
   return (
     <AuthShell
-      eyebrow={t("auth.shellEyebrowVerifyWaiting")}
-      title={t("auth.verify.title")}
-      subtitle={email ? t("auth.verify.subtitleWithEmail", { email }) : t("auth.verify.subtitleNoEmail")}
+      eyebrow="VERIFY YOUR EMAIL"
+      title="Enter your code"
+      subtitle={email ? `We sent a 6-digit code to ${email}.` : "Enter the email you registered with and the code we sent you."}
     >
-      <div className="space-y-4">
-        <div className="flex flex-col items-center text-center gap-3 py-4">
-          <div className="h-14 w-14 rounded-full bg-accent-blue/10 grid place-items-center">
-            <Mail className="h-6 w-6 text-accent-blue" />
+      <div className="space-y-5">
+        {!emailParam && (
+          <div className="space-y-1.5">
+            <label className="block text-xs font-medium tracking-wide text-muted-foreground uppercase">Email</label>
+            <input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              autoComplete="email"
+              className="w-full h-11 rounded-md border border-border bg-surface/60 px-3 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-accent-blue/40"
+            />
           </div>
-          <p className="text-sm text-muted-foreground">
-            Enter the 6-digit verification code sent to your email address.</p>
+        )}
+
+        <div className="flex flex-col items-center gap-3 py-2">
+          <div className="h-14 w-14 rounded-full bg-accent-blue/10 grid place-items-center">
+            <ShieldCheck className="h-6 w-6 text-accent-blue" />
+          </div>
+          <InputOTP
+            maxLength={6}
+            value={code}
+            onChange={(v) => {
+              setCode(v);
+              if (v.length === 6) verify(v);
+            }}
+            disabled={verifying}
+          >
+            <InputOTPGroup>
+              {[0, 1, 2, 3, 4, 5].map((i) => (
+                <InputOTPSlot key={i} index={i} className="h-12 w-10 text-lg" />
+              ))}
+            </InputOTPGroup>
+          </InputOTP>
+          <p className="text-xs text-muted-foreground text-center">
+            The code expires in 10 minutes.
+          </p>
         </div>
-         
-        <input
-         type="text"
-         placeholder="Enter 6-digit code"
-         value={otp}
-         onChange={(e) => setOtp(e.target.value)}
-         className="w-full rounded-lg border border-white/20 bg-black/20 p-3 text-center text-xl tracking-widest"
-        />
-        
+
         <button
-         onClick={verifyOtp}
-         className="btn-primary w-full"
+          onClick={() => verify(code)}
+          disabled={verifying || code.length !== 6}
+          className="btn-primary w-full disabled:opacity-50"
         >
-          Verify Code
+          {verifying ? <Loader2 className="h-4 w-4 animate-spin mx-auto" /> : "Verify & continue"}
         </button>
 
-        <button onClick={resend} disabled={resending || !email} className="btn-ghost w-full">
-          {resending ? <Loader2 className="h-4 w-4 animate-spin" /> : t("auth.verify.resend")}
+        <button onClick={resend} disabled={resending} className="btn-ghost w-full">
+          {resending ? <Loader2 className="h-4 w-4 animate-spin mx-auto" /> : "Resend code"}
         </button>
+
         <Link to="/auth/login" className="block text-center text-xs text-muted-foreground hover:text-foreground">
-          {t("auth.verify.back")}
+          Back to sign in
         </Link>
       </div>
     </AuthShell>

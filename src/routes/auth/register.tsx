@@ -35,7 +35,6 @@ function RegisterPage() {
       email: values.email,
       password: values.password,
       options: {
-        emailRedirectTo: `${window.location.origin}/auth/verify-email`,
         data: {
           first_name: values.firstName,
           last_name: values.lastName,
@@ -55,8 +54,8 @@ function RegisterPage() {
       }
       return;
     }
-    toast.success(t("auth.register.createdTitle"), { description: t("auth.register.createdDesc") });
-    window.location.href = "/auth/verify-email";
+    toast.success("Check your email", { description: "We sent you a 6-digit verification code." });
+    navigate({ to: "/auth/verify-email", search: { email: values.email } });
   }
 
   return (
