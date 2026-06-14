@@ -24,9 +24,16 @@ function Contact() {
         <div className="container-x grid lg:grid-cols-[1fr_1.4fr] gap-12">
           <div className="space-y-6">
             {[
-              { i: Mail, l: "Email", v: "investors@spacexipoexchange.com" },
-              { i: Phone, l: "Phone", v: "+1 (555) 010-0420" },
-              { i: MapPin, l: "Headquarters", v: "Hawthorne, California · London · Singapore" },
+              { i: Mail, l: "Email", v: "spacexipoexchange@gmail.com" },
+              { i: Phone, l: "WhatsApp", v: 
+              <a
+                href="https://wa.me/19714284965"
+                target="_blank"
+                rel="noopener noreferrer"
+               >
+                Chat on WhatsApp
+              </a> },
+              { i: MapPin, l: "Headquarters", v: "Hawthorne, California" },
             ].map((c) => (
               <div key={c.l} className="glass-card p-6 flex items-start gap-4">
                 <c.i className="h-5 w-5 text-accent-blue mt-1" />
@@ -59,7 +66,7 @@ function Contact() {
                 <div className="grid sm:grid-cols-2 gap-4">
                   {[
                     { l: "Full Name", t: "text", p: "Elon Musk" },
-                    { l: "Email", t: "email", p: "you@domain.com" },
+                    { l: "Email", t: "email", p: "you@email.com" },
                   ].map((f) => (
                     <div key={f.l}>
                       <label className="font-mono text-[10px] tracking-widest text-muted-foreground">{f.l.toUpperCase()}</label>
