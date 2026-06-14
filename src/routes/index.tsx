@@ -49,13 +49,13 @@ function Home() {
   return (
     <SiteShell>
       {/* HERO */}
-      <section className="relative min-h-[85svh] md:min-h-[92vh] flex items-end overflow-hidden border-b border-border">
+      <section className="relative min-h-[100svh] md:min-h-[92vh] flex items-end overflow-hidden border-b border-border">
         <img src={heroRocket} alt="Rocket launch" className="absolute inset-0 w-full h-full object-cover" width={1920} height={1280} />
         <div className="absolute inset-0 hero-overlay" />
         <div className="absolute inset-0 starfield opacity-40 animate-drift" />
         <div className="absolute top-1/4 right-10 w-72 h-72 rounded-full bg-accent-blue/20 blur-3xl animate-pulse-glow hidden md:block" />
 
-        <div className="container-x relative pb-10 md:pb-32 pt-12 md:pt-32 w-full">
+        <div className="container-x relative pb-6 md:pb-20 pt-0 md:pt-12 w-full">
           <div className="mb-10 md:mb-16 mt-6 md:mt-0 flex justify-center md:justify-start animate-fade-up">
             <img
               src={brandWordmark}
