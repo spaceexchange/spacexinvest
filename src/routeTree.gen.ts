@@ -74,8 +74,6 @@ import { Route as AuthRegisterRouteImport } from './routes/auth/register'
 import { Route as AuthLogoutRouteImport } from './routes/auth/logout'
 import { Route as AuthLoginRouteImport } from './routes/auth/login'
 import { Route as AuthForgotPasswordRouteImport } from './routes/auth/forgot-password'
-import { Route as AuthAccountPendingRouteImport } from './routes/auth/account-pending'
-import { Route as AuthAccountCreatedRouteImport } from './routes/auth/account-created'
 import { Route as AdminWithdrawalsRouteImport } from './routes/admin/withdrawals'
 import { Route as AdminWalletsRouteImport } from './routes/admin/wallets'
 import { Route as AdminUsersRouteImport } from './routes/admin/users'
@@ -461,16 +459,6 @@ const AuthLoginRoute = AuthLoginRouteImport.update({
 const AuthForgotPasswordRoute = AuthForgotPasswordRouteImport.update({
   id: '/forgot-password',
   path: '/forgot-password',
-  getParentRoute: () => AuthRouteRoute,
-} as any)
-const AuthAccountPendingRoute = AuthAccountPendingRouteImport.update({
-  id: '/account-pending',
-  path: '/account-pending',
-  getParentRoute: () => AuthRouteRoute,
-} as any)
-const AuthAccountCreatedRoute = AuthAccountCreatedRouteImport.update({
-  id: '/account-created',
-  path: '/account-created',
   getParentRoute: () => AuthRouteRoute,
 } as any)
 const AdminWithdrawalsRoute = AdminWithdrawalsRouteImport.update({
@@ -862,8 +850,6 @@ export interface FileRoutesByFullPath {
   '/admin/users': typeof AdminUsersRouteWithChildren
   '/admin/wallets': typeof AdminWalletsRoute
   '/admin/withdrawals': typeof AdminWithdrawalsRouteWithChildren
-  '/auth/account-created': typeof AuthAccountCreatedRoute
-  '/auth/account-pending': typeof AuthAccountPendingRoute
   '/auth/forgot-password': typeof AuthForgotPasswordRoute
   '/auth/login': typeof AuthLoginRoute
   '/auth/logout': typeof AuthLogoutRoute
@@ -986,8 +972,6 @@ export interface FileRoutesByTo {
   '/admin/users': typeof AdminUsersRouteWithChildren
   '/admin/wallets': typeof AdminWalletsRoute
   '/admin/withdrawals': typeof AdminWithdrawalsRouteWithChildren
-  '/auth/account-created': typeof AuthAccountCreatedRoute
-  '/auth/account-pending': typeof AuthAccountPendingRoute
   '/auth/forgot-password': typeof AuthForgotPasswordRoute
   '/auth/login': typeof AuthLoginRoute
   '/auth/logout': typeof AuthLogoutRoute
@@ -1117,8 +1101,6 @@ export interface FileRoutesById {
   '/admin/users': typeof AdminUsersRouteWithChildren
   '/admin/wallets': typeof AdminWalletsRoute
   '/admin/withdrawals': typeof AdminWithdrawalsRouteWithChildren
-  '/auth/account-created': typeof AuthAccountCreatedRoute
-  '/auth/account-pending': typeof AuthAccountPendingRoute
   '/auth/forgot-password': typeof AuthForgotPasswordRoute
   '/auth/login': typeof AuthLoginRoute
   '/auth/logout': typeof AuthLogoutRoute
@@ -1249,8 +1231,6 @@ export interface FileRouteTypes {
     | '/admin/users'
     | '/admin/wallets'
     | '/admin/withdrawals'
-    | '/auth/account-created'
-    | '/auth/account-pending'
     | '/auth/forgot-password'
     | '/auth/login'
     | '/auth/logout'
@@ -1373,8 +1353,6 @@ export interface FileRouteTypes {
     | '/admin/users'
     | '/admin/wallets'
     | '/admin/withdrawals'
-    | '/auth/account-created'
-    | '/auth/account-pending'
     | '/auth/forgot-password'
     | '/auth/login'
     | '/auth/logout'
@@ -1503,8 +1481,6 @@ export interface FileRouteTypes {
     | '/admin/users'
     | '/admin/wallets'
     | '/admin/withdrawals'
-    | '/auth/account-created'
-    | '/auth/account-pending'
     | '/auth/forgot-password'
     | '/auth/login'
     | '/auth/logout'
@@ -2071,20 +2047,6 @@ declare module '@tanstack/react-router' {
       path: '/forgot-password'
       fullPath: '/auth/forgot-password'
       preLoaderRoute: typeof AuthForgotPasswordRouteImport
-      parentRoute: typeof AuthRouteRoute
-    }
-    '/auth/account-pending': {
-      id: '/auth/account-pending'
-      path: '/account-pending'
-      fullPath: '/auth/account-pending'
-      preLoaderRoute: typeof AuthAccountPendingRouteImport
-      parentRoute: typeof AuthRouteRoute
-    }
-    '/auth/account-created': {
-      id: '/auth/account-created'
-      path: '/account-created'
-      fullPath: '/auth/account-created'
-      preLoaderRoute: typeof AuthAccountCreatedRouteImport
       parentRoute: typeof AuthRouteRoute
     }
     '/admin/withdrawals': {
@@ -2732,8 +2694,6 @@ const AdminRouteRouteWithChildren = AdminRouteRoute._addFileChildren(
 )
 
 interface AuthRouteRouteChildren {
-  AuthAccountCreatedRoute: typeof AuthAccountCreatedRoute
-  AuthAccountPendingRoute: typeof AuthAccountPendingRoute
   AuthForgotPasswordRoute: typeof AuthForgotPasswordRoute
   AuthLoginRoute: typeof AuthLoginRoute
   AuthLogoutRoute: typeof AuthLogoutRoute
@@ -2746,8 +2706,6 @@ interface AuthRouteRouteChildren {
 }
 
 const AuthRouteRouteChildren: AuthRouteRouteChildren = {
-  AuthAccountCreatedRoute: AuthAccountCreatedRoute,
-  AuthAccountPendingRoute: AuthAccountPendingRoute,
   AuthForgotPasswordRoute: AuthForgotPasswordRoute,
   AuthLoginRoute: AuthLoginRoute,
   AuthLogoutRoute: AuthLogoutRoute,

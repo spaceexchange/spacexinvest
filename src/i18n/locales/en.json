@@ -288,17 +288,17 @@
       "failed": "Could not update password"
     },
     "verify": {
-      "title": "Check your inbox",
-      "subtitleWithEmail": "We sent a link to {{email}}",
-      "subtitleNoEmail": "We sent you a verification link.",
-      "instruction": "Click the link in your email to activate your investor account. The link expires in 24 hours.",
-      "resend": "Resend verification email",
+      "title": "Enter your code",
+      "subtitleWithEmail": "We sent a 6-digit code to {{email}}",
+      "subtitleNoEmail": "We sent you a 6-digit verification code.",
+      "instruction": "Enter the 6-digit code from your email to activate your investor account. The code expires in 10 minutes.",
+      "resend": "Resend code",
       "back": "Back to sign in",
       "doneTitle": "Email verified",
       "doneBody": "Your email is confirmed. You can continue to your account.",
       "goAccount": "Go to my account",
       "resendFailed": "Could not resend",
-      "resendSuccess": "Verification email sent"
+      "resendSuccess": "New code sent"
     }
   },
   "dashboard": {
