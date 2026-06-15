@@ -306,10 +306,10 @@
     "title": "Mission Control",
     "subtitle": "Your investor overview at a glance.",
     "stats": {
-  "portfolioValue": "TOTAL PORTFOLIO VALUE",
-  "sharesOwned": "TOTAL SHARES OWNED",
+  "portfolioValue": "PORTFOLIO VALUE",
+  "sharesOwned": "SHARES OWNED",
   "pending": "PENDING ORDERS",
-  "wallet": "AVAILABLE CASH"
+  "wallet": "WALLET"
 },
     "quickLinks": {
   "spacexStock": "BUY SPACEX STOCK",
