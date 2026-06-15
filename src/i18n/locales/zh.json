@@ -296,17 +296,17 @@
     "title": "Mission Control",
     "subtitle": "Your investor overview at a glance.",
     "stats": {
-      "portfolioValue": "Portfolio Value",
-      "sharesOwned": "Shares Owned",
-      "pending": "Pending",
-      "wallet": "Wallet"
-    },
+  "portfolioValue": "PORTFOLIO VALUE",
+  "sharesOwned": "SHARES OWNED",
+  "pending": "PENDING ORDERS",
+  "wallet": "WALLET"
+},
     "quickLinks": {
-      "spacexStock": "SpaceX Stock",
-      "teslaStock": "Tesla Stock",
-      "teslaVehicles": "Tesla Vehicles",
-      "holdings": "Holdings"
-    },
+  "spacexStock": "BUY SPACEX STOCK",
+  "teslaStock": "BUY TESLA STOCK",
+  "teslaVehicles": "SHOP TESLA VEHICLES",
+  "holdings": "MY HOLDINGS"
+},
     "summary": {
       "rewards": "Rewards",
       "referrals": "Referrals",
