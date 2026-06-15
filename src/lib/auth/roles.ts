@@ -7,8 +7,15 @@ export type AppRole =
 export type Portal = "admin" | "support" | "compliance" | "finance" | "employee" | "investor";
 
 export async function fetchUserRoles(userId: string): Promise<AppRole[]> {
-  const { data } = await supabase.from("user_roles").select("role").eq("user_id", userId);
-  return (data ?? []).map((r: any) => r.role as AppRole);
+  console.log("ROLE CHECK USER ID:", userId);
+  const { data } = await supabase
+  .from("user_roles")
+  .select("role")
+  .eq("user_id", userId);
+
+console.log("ROLES FOUND:", data);
+
+return (data ?? []).map((r: any) => r.role as AppRole);
 }
 
 export function resolvePortal(roles: AppRole[]): Portal {
