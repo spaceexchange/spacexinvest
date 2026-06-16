@@ -427,7 +427,7 @@
       "memo": "Memo / tag (optional)"
     },
     "bank": {
-      "wireTo": "Bank Transfer Details",
+      "wireTo": "Bank Transfer Details:",
       "includeReference": "Include your account email as reference.",
       "depositSubmitted": "Deposit submitted. Finance team will verify within 1 business day.",
       "withdrawSubmitted": "Withdrawal request submitted. Compliance review starts immediately.",

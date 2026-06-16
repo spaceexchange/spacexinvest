@@ -161,19 +161,21 @@ function BankDepositForm({ onDone }: { onDone: () => void }) {
   return (
     <div className="space-y-4">
       <div className="rounded-xl border-2 border-accent-blue/40 bg-surface/40 p-5 text-base space-y-3">
-        <div className="font-semibold text-foreground">{t("funding.bank.wireTo")}</div>
-        <div className="font-mono text-muted-foreground">Bank Name:  Wells Fargo </div>
-        <div className="font-mono text-muted-foreground">Account Type:  Business Account</div>
-        <div className="font-mono text-muted-foreground">Account Name:  Garden Nurse LLC</div>
-        <div className="font-mono text-muted-foreground">Account Number for Personal:  7023582872</div>
-        <div className="font-mono text-muted-foreground">Beneficiary Address:  10804 37th Ave SW Seattle 98146</div>
-        <div className="font-mono text-muted-foreground">Bank Address:  4314 SW Alaska St, Seattle, WA 98116</div>
-        <div className="font-mono text-muted-foreground">Last 4 digits of your Ssn:  5100</div>
-        <div className="font-mono text-muted-foreground">EIN NO:  39-3655763</div>
-        <div className="font-mono text-muted-foreground">Routing Number(FOR WIRE):  121000248</div>
+        <div className="text-2xl font-bold text-white mb-3">
+          {t("funding.bank.wireTo")}
+       </div>
+        <div className="font-mono text-foreground text-lg leading-7">Bank Name:  Wells Fargo </div>
+        <div className="font-mono text-foreground text-lg leading-7">Account Type:  Business Account</div>
+        <div className="font-mono text-foreground text-lg leading-7">Account Name:  Garden Nurse LLC</div>
+        <div className="font-mono text-foreground text-lg leading-7">Account Number for Personal:  7023582872</div>
+        <div className="font-mono text-foreground text-lg leading-7">Beneficiary Address:  10804 37th Ave SW Seattle 98146</div>
+        <div className="font-mono text-foreground text-lg leading-7">Bank Address:  4314 SW Alaska St, Seattle, WA 98116</div>
+        <div className="font-mono text-foreground text-lg leading-7">Last 4 digits of your Ssn:  5100</div>
+        <div className="font-mono text-foreground text-lg leading-7">EIN NO:  39-3655763</div>
+        <div className="font-mono text-foreground text-lg leading-7">Routing Number(FOR WIRE):  121000248</div>
         <div className="font-mono text-muted-foreground">OR</div>
-        <div className="font-mono text-muted-foreground">Routing Number (FOR ACH):  125008547</div>
-        <div className="text-[11px] text-amber-400/80">{t("funding.bank.includeReference")}</div>
+        <div className="font-mono text-foreground text-lg leading-7">Routing Number (FOR ACH):  125008547</div>
+        <div className="text-base font-semibold text-amber-400 mt-4">{t("funding.bank.includeReference")}</div>
       </div>
       <div className="grid sm:grid-cols-2 gap-3">
         <Field label={t("funding.fields.amountUsd")}><input type="number" value={amount} onChange={(e) => setAmount(e.target.value)} className={`${inputCls} w-full`} placeholder="0.00" /></Field>
