@@ -6,7 +6,7 @@ const COLS = [
   {
     titleKey: "footer.cols.invest",
     links: [
-      { to: "/spacex", key: "footer.links.spacexIpo" },
+      { to: "/spacex", key: "footer.links.spacex" },
       { to: "/tesla-stock", key: "footer.links.teslaStock" },
       { to: "/why-invest", key: "footer.links.whyInvest" },
       { to: "/education", key: "footer.links.education" },
@@ -47,7 +47,7 @@ export function Footer() {
             <Link to="/" className="flex items-center gap-3">
               <Logo className="h-10 w-10" />
               <div>
-                <div className="font-display text-sm tracking-[0.25em] silver-text">SPACEX IPO</div>
+                <div className="font-display text-sm tracking-[0.25em] silver-text">SPACEX</div>
                 <div className="font-mono text-[10px] tracking-[0.3em] text-muted-foreground mt-1">EXCHANGE</div>
               </div>
             </Link>

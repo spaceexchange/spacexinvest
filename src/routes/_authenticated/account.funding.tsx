@@ -300,7 +300,7 @@ function CryptoDepositForm({ onDone, addrs }: { onDone: () => void; addrs: any[]
   const c = CRYPTOS[pick];
   console.log("CRYPTOS:", c);
   console.log("ADDRS:", addrs);
-  const address = addrs.find((a) => a.asset === c.asset && a.network === c.network);
+  const address = addrs.find((a) => a.asset === c.asset);
 
   async function submit() {
     if (!amount || !tx) return toast.error(t("funding.crypto.amountTxRequired"));
