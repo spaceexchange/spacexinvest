@@ -35,17 +35,6 @@ export function InvoiceCard({ invoice, compact = false }: { invoice: Invoice; co
         <div className="h-full bg-accent-blue transition-all" style={{ width: `${pct}%` }} />
       </div>
 
-      <div className="grid grid-cols-2 gap-2 text-[11px] text-muted-foreground">
-        <div>
-          <div className="font-mono uppercase tracking-wider text-[9px]">Type</div>
-          <div className="text-foreground capitalize">{invoice.kind} · {invoice.payment_method ?? "—"}</div>
-        </div>
-        <div>
-          <div className="font-mono uppercase tracking-wider text-[9px]">Created</div>
-          <div className="text-foreground">{new Date(invoice.created_at).toLocaleDateString()}</div>
-        </div>
-      </div>
-
       {!compact && (
         <div className="flex gap-2 mt-4 print:hidden">
           <Link to="/account/invoices/$id" params={{ id: invoice.id }}
