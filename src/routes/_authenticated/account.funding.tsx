@@ -62,12 +62,6 @@ function FundingPage() {
         </div>
       )}
 
-      <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-4 mb-6">
-        <StatCard label={t("funding.usdBalance")} value={formatCurrency(Number(usd?.balance ?? 0), "USD")} icon={<Banknote className="h-4 w-4" />} />
-        <StatCard label={t("funding.pendingRequests")} value={formatCurrency(pending, "USD")} />
-        <StatCard label={t("funding.lifetimeDeposits")} value={formatCurrency(deposits, "USD")} />
-      </div>
-
       <div className="flex gap-2 mb-4">
         <RailBtn active={rail === "bank"} onClick={() => setRail("bank")} icon={<Building2 className="h-4 w-4" />}>{t("funding.rail.bank")}</RailBtn>
         <RailBtn active={rail === "crypto"} onClick={() => setRail("crypto")} icon={<Bitcoin className="h-4 w-4" />}>{t("funding.rail.crypto")}</RailBtn>
@@ -75,11 +69,6 @@ function FundingPage() {
 
       <div className="grid lg:grid-cols-[1fr_360px] gap-4 mb-4">
         <Panel>
-          <div className="flex gap-2 mb-5">
-            <TabBtn active={tab === "deposit"} onClick={() => setTab("deposit")} icon={<ArrowDownToLine className="h-4 w-4" />}>{t("funding.tab.deposit")}</TabBtn>
-            <TabBtn active={tab === "withdrawal"} onClick={() => setTab("withdrawal")} icon={<ArrowUpFromLine className="h-4 w-4" />}>{t("funding.tab.withdraw")}</TabBtn>
-          </div>
-
           {rail === "bank" && tab === "deposit" && <BankDepositForm onDone={refresh} />}
           {rail === "bank" && tab === "withdrawal" && <BankWithdrawForm onDone={refresh} max={Number(usd?.balance ?? 0)} />}
           {rail === "crypto" && tab === "deposit" && <CryptoDepositForm onDone={refresh} addrs={addrs} />}
