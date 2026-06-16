@@ -160,7 +160,7 @@ function BankDepositForm({ onDone }: { onDone: () => void }) {
 
   return (
     <div className="space-y-4">
-      <div className="rounded-lg border border-border bg-surface/40 p-3 text-xs space-y-1">
+      <div className="rounded-xl border-2 border-accent-blue/40 bg-surface/40 p-5 text-base space-y-3">
         <div className="font-semibold text-foreground">{t("funding.bank.wireTo")}</div>
         <div className="font-mono text-muted-foreground">Bank Name:  Wells Fargo </div>
         <div className="font-mono text-muted-foreground">Account Type:  Business Account</div>

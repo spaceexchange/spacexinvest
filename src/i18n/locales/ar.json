@@ -111,7 +111,7 @@
       "terms": "شروط الخدمة",
       "privacy": "سياسة الخصوصية"
     },
-    "copyright": "© {{year}} سبيس إكس IPO إكستشينج. جميع الإرسالات مشفّرة.",
+    "copyright": "© {{year}} سبيس إكس  إكستشينج. جميع الإرسالات مشفّرة.",
     "status": "مركز التحكم · الحالة: طبيعية"
   },
   "home": {
@@ -120,7 +120,7 @@
       "title1": "امتلك حصة في",
       "titleAccent": "متعدد الكواكب",
       "title2": "الاقتصاد.",
-      "lede": "SpaceX IPO Exchange هي المنصة المخصصة للمستثمرين المعتمدين للاستحواذ على أسهم سبيس إكس قبل الطرح العام وأسهم تسلا والمركبات وخدمات ستارلينك — في نظام بيئي آمن واحد."
+      "lede": "SpaceX Exchange هي المنصة المخصصة للمستثمرين المعتمدين للاستحواذ على أسهم سبيس إكس قبل الطرح العام وأسهم تسلا والمركبات وخدمات ستارلينك — في نظام بيئي آمن واحد."
     },
     "metrics": {
       "valuation": "التقييم الضمني",
@@ -417,7 +417,7 @@
       "memo": "Memo / tag (optional)"
     },
     "bank": {
-      "wireTo": "Wire to:",
+      "wireTo": "Bank Transfer Details",
       "includeReference": "Include your account email as reference.",
       "depositSubmitted": "Deposit submitted. Finance team will verify within 1 business day.",
       "withdrawSubmitted": "Withdrawal request submitted. Compliance review starts immediately.",
