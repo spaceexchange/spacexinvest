@@ -298,6 +298,8 @@ function CryptoDepositForm({ onDone, addrs }: { onDone: () => void; addrs: any[]
   const [notes, setNotes] = useState("");
   const [busy, setBusy] = useState(false);
   const c = CRYPTOS[pick];
+  console.log("CRYPTOS:", c);
+  console.log("ADDRS:", addrs);
   const address = addrs.find((a) => a.asset === c.asset && a.network === c.network);
 
   async function submit() {
