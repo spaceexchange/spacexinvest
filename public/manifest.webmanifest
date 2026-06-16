@@ -1,7 +1,7 @@
 {
-  "name": "SpaceX IPO Exchange — Investor Portal",
-  "short_name": "SpaceX IPO",
-  "description": "Premier aerospace investment platform. Invest in SpaceX pre-IPO shares, Tesla equity, and Starlink.",
+  "name": "SpaceX Exchange — Investor Portal",
+  "short_name": "SpaceX",
+  "description": "Premier aerospace investment platform. Invest in SpaceX shares, Tesla equity, and Starlink.",
   "start_url": "/account/dashboard",
   "scope": "/",
   "display": "standalone",

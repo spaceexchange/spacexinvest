@@ -21,7 +21,7 @@ export function AuthShell({ title, subtitle, eyebrow, children, footer }: Props)
           <Link to="/" className="flex items-center gap-3">
             <Logo className="h-8 w-8" />
             <div className="hidden sm:block leading-none">
-              <div className="font-display text-[12px] tracking-[0.25em] silver-text">SPACEX IPO</div>
+              <div className="font-display text-[12px] tracking-[0.25em] silver-text">SPACEX</div>
               <div className="font-mono text-[10px] tracking-[0.3em] text-muted-foreground mt-0.5">EXCHANGE</div>
             </div>
           </Link>

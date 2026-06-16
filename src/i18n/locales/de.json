@@ -90,7 +90,7 @@
     "showLess": "Weniger"
   },
   "footer": {
-    "tagline": "Das führende digitale Tor zu SpaceX Pre-IPO-Aktien, Tesla-Aktien, Fahrzeugen und Starlink-Diensten — entwickelt für die nächste Generation von Investoren.",
+    "tagline": "Das führende digitale Tor zu SpaceX -Aktien, Tesla-Aktien, Fahrzeugen und Starlink-Diensten — entwickelt für die nächste Generation von Investoren.",
     "cols": {
       "invest": "Investieren",
       "commerce": "Handel",
@@ -98,7 +98,7 @@
       "legal": "Rechtliches"
     },
     "links": {
-      "spacexIpo": "SpaceX-Börsengang",
+      "spacexIpo": "SpaceX",
       "teslaStock": "Tesla-Aktie",
       "whyInvest": "Warum investieren",
       "education": "Anlegerschulung",
@@ -111,16 +111,16 @@
       "terms": "AGB",
       "privacy": "Datenschutz"
     },
-    "copyright": "© {{year}} SpaceX IPO Exchange. Alle Übertragungen verschlüsselt.",
+    "copyright": "© {{year}} SpaceX Exchange. Alle Übertragungen verschlüsselt.",
     "status": "MISSIONSKONTROLLE · STATUS: NOMINAL"
   },
   "home": {
     "hero": {
-      "eyebrow": "PRE-IPO ZUTEILUNG OFFEN — RUNDE 04",
+      "eyebrow": " ZUTEILUNG OFFEN — RUNDE 04",
       "title1": "Werden Sie Teil der",
       "titleAccent": "multiplanetaren",
       "title2": "Wirtschaft.",
-      "lede": "SpaceX IPO Exchange ist die spezialisierte Plattform für akkreditierte Investoren zum Erwerb von Pre-IPO-SpaceX-Aktien, Tesla-Aktien, Fahrzeugen und Starlink-Konnektivität — alles in einem sicheren Ökosystem."
+      "lede": "SpaceX Exchange ist die spezialisierte Plattform für akkreditierte Investoren zum Erwerb von SpaceX-Aktien, Tesla-Aktien, Fahrzeugen und Starlink-Konnektivität — alles in einem sicheren Ökosystem."
     },
     "metrics": {
       "valuation": "Implizite Bewertung",
@@ -188,7 +188,7 @@
       "lede": "Alles, was Sie vor Ihrer ersten Zuteilung wissen müssen."
     },
     "faq": {
-      "q1": "Wer kann in Pre-IPO-SpaceX-Aktien investieren?",
+      "q1": "Wer kann in SpaceX-Aktien investieren?",
       "a1": "Derzeit weltweit für akkreditierte Investoren geöffnet; institutionelle Strukturen auf Anfrage.",
       "q2": "Wie werden die Aktien verwahrt?",
       "a2": "Über SPV-Strukturen bei qualifizierten Verwahrern; Unterlagen werden je Zuteilung bereitgestellt.",
