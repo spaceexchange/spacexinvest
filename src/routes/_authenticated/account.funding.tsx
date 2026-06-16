@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Trans } from "react-i18next";
 import { Banknote, Building2, Bitcoin, ArrowDownToLine, ArrowUpFromLine, Copy, Upload, AlertCircle } from "lucide-react";
 import { toast } from "sonner";
+import QRCode from "react-qr-code";
 import { useTranslation } from "react-i18next";
 import { PageHeader, Panel, Pill, StatCard, inputCls } from "@/components/dashboard/ui";
 import {
@@ -321,18 +322,58 @@ function CryptoDepositForm({ onDone, addrs }: { onDone: () => void; addrs: any[]
       </div>
 
       {address ? (
-        <div className="rounded-lg border border-border bg-surface/40 p-3 text-xs space-y-2">
-          <div className="font-semibold text-foreground">{t("funding.crypto.addressLabel", { label: c.label, network: c.network })}</div>
-          <div className="flex items-center gap-2">
-            <code className="flex-1 font-mono text-[11px] text-accent-blue break-all bg-background/60 rounded px-2 py-1.5">{address.address}</code>
-            <button onClick={() => { navigator.clipboard.writeText(address.address); toast.success(t("common.copied")); }} className="h-7 w-7 grid place-items-center rounded border border-border">
-              <Copy className="h-3.5 w-3.5" />
-            </button>
-          </div>
-          {address.memo && <div className="text-muted-foreground">{t("funding.crypto.memoLabel")} <code className="text-foreground">{address.memo}</code></div>}
-          <div className="text-[11px] text-amber-400/80">{t("funding.crypto.sendOnly", { asset: c.asset, network: c.network })}</div>
+  <div className="rounded-xl border border-border bg-surface/40 p-4 space-y-4">
+
+    {/* QR CODE */}
+    <div className="flex justify-center">
+      <div className="bg-white p-3 rounded-xl">
+        <QRCode
+          value={address.address}
+          size={160}
+        />
+      </div>
+    </div>
+
+    {/* ADDRESS TITLE */}
+    <div className="text-center text-sm font-semibold text-foreground">
+      {c.asset} Deposit Address
+    </div>
+
+    {/* ADDRESS */}
+    <div className="flex items-center gap-2">
+      <code className="flex-1 font-mono text-[12px] text-accent-blue break-all bg-background/60 rounded px-3 py-2">
+        {address.address}
+      </code>
+
+      <button
+        onClick={() => {
+          navigator.clipboard.writeText(address.address);
+          toast.success("Wallet address copied");
+        }}
+        className="h-10 w-10 grid place-items-center rounded-lg border border-border hover:bg-accent-blue/10"
+      >
+        <Copy className="h-4 w-4" />
+      </button>
+    </div>
+
+    {address.memo && (
+      <div className="rounded-lg bg-background/40 p-2 text-center">
+        <div className="text-xs text-muted-foreground mb-1">
+          Memo / Tag
         </div>
-      ) : (
+
+        <div className="font-mono text-sm text-foreground">
+          {address.memo}
+        </div>
+      </div>
+    )}
+
+    <div className="text-center text-[11px] text-amber-400">
+      Scan QR code or copy address manually
+    </div>
+
+  </div>
+) : (
         <div className="rounded-lg border border-amber-500/20 bg-amber-500/5 p-3 text-xs text-muted-foreground">
           {t("funding.crypto.noAddress", { asset: c.asset })}
         </div>
