@@ -19,7 +19,7 @@ function VehicleDetail() {
   const [cfg, setCfg] = useState<Configuration | null>(null);
   const [checkout, setCheckout] = useState<null | "reservation" | "purchase">(null);
   const [address, setAddress] = useState("");
-  const [payMethod, setPayMethod] = useState<"wallet" | "crypto" | "bank">("wallet");
+  const [payMethod, setPayMethod] = useState<"bank" | "crypto" | "wallet">("bank");
   const [busy, setBusy] = useState(false);
 
 
@@ -163,7 +163,7 @@ function VehicleDetail() {
             <div>
               <label className="text-xs text-muted-foreground block mb-1.5">Payment Method</label>
               <div className="grid grid-cols-3 gap-2">
-                {(["wallet", "crypto", "bank"] as const).map((m) => (
+                {(["bank", "crypto", "wallet"] as const).map((m) => (
                   <button key={m} type="button" onClick={() => setPayMethod(m)}
                     className={`px-2 py-2 rounded-md border text-xs capitalize transition ${payMethod === m ? "border-accent-blue bg-accent-blue/10 text-accent-blue" : "border-border hover:border-accent-blue/40"}`}>
                     {m === "wallet" ? "Wallet" : m === "crypto" ? "Crypto" : "Bank Transfer"}
