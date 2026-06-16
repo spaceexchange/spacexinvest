@@ -160,23 +160,61 @@ function BankDepositForm({ onDone }: { onDone: () => void }) {
 
   return (
     <div className="space-y-4">
-      <div className="rounded-xl border-2 border-accent-blue/40 bg-surface/40 p-5 text-base space-y-3">
-        <div className="text-2xl font-bold text-white mb-3">
-          {t("funding.bank.wireTo")}
-       </div>
-        <div className="font-mono text-foreground text-base leading-7">Bank Name:  Wells Fargo </div>
-        <div className="font-mono text-foreground text-lg leading-7">Account Type:  Business Account</div>
-        <div className="font-mono text-foreground text-base leading-7">Account Name:  Garden Nurse LLC</div>
-        <div className="font-mono text-foreground text-base leading-7">Account Number for Personal:  7023582872</div>
-        <div className="font-mono text-foreground text-base leading-7">Beneficiary Address:  10804 37th Ave SW Seattle 98146</div>
-        <div className="font-mono text-foreground text-base leading-7">Bank Address:  4314 SW Alaska St, Seattle, WA 98116</div>
-        <div className="font-mono text-foreground text-base leading-7">Last 4 digits of your Ssn:  5100</div>
-        <div className="font-mono text-foreground text-base leading-7">EIN NO:  39-3655763</div>
-        <div className="font-mono text-foreground text-base leading-7">Routing Number(FOR WIRE):  121000248</div>
-        <div className="font-mono text-foreground text-base leading-5">OR</div>
-        <div className="font-mono text-foreground text-base leading-7">Routing Number (FOR ACH):  125008547</div>
-        <div className="text-base font-semibold text-amber-400 mt-4">{t("funding.bank.includeReference")}</div>
-      </div>
+      <div className="rounded-xl border-2 border-accent-blue/40 bg-surface/40 p-4 space-y-2">
+  <div className="text-xl font-bold text-white mb-2">
+    {t("funding.bank.wireTo")}
+  </div>
+
+  <div className="font-mono text-[15px] font-semibold text-foreground">
+    Bank Name: Wells Fargo
+  </div>
+
+  <div className="font-mono text-[15px] font-semibold text-foreground">
+    Account Type: Business Account
+  </div>
+
+  <div className="font-mono text-[15px] font-semibold text-foreground">
+    Account Name: Garden Nurse LLC
+  </div>
+
+  <div className="font-mono text-[15px] font-semibold text-foreground">
+    Account Number: 7023582872
+  </div>
+
+  <div className="font-mono text-[15px] font-semibold text-foreground pt-1">
+    Beneficiary Address:
+  </div>
+  <div className="font-mono text-[15px] text-foreground">
+    10804 37th Ave SW, Seattle, WA 98146
+  </div>
+
+  <div className="font-mono text-[15px] font-semibold text-foreground pt-1">
+    Bank Address:
+  </div>
+  <div className="font-mono text-[15px] text-foreground">
+    4314 SW Alaska St, Seattle, WA 98116
+  </div>
+
+  <div className="font-mono text-[15px] font-semibold text-foreground pt-1">
+    EIN No: 39-3655763
+  </div>
+
+  <div className="font-mono text-[15px] font-semibold text-foreground pt-1">
+    Routing Number (Wire): 121000248
+  </div>
+
+  <div className="text-[11px] uppercase tracking-widest text-muted-foreground text-center py-1">
+    OR
+  </div>
+
+  <div className="font-mono text-[15px] font-semibold text-foreground">
+    Routing Number (ACH): 125008547
+  </div>
+
+  <div className="text-sm font-semibold text-amber-400 pt-3">
+    {t("funding.bank.includeReference")}
+  </div>
+</div>
       <div className="grid sm:grid-cols-2 gap-3">
         <Field label={t("funding.fields.amountUsd")}><input type="number" value={amount} onChange={(e) => setAmount(e.target.value)} className={`${inputCls} w-full`} placeholder="0.00" /></Field>
         <Field label={t("funding.fields.transferDate")}><input type="date" value={date} onChange={(e) => setDate(e.target.value)} className={`${inputCls} w-full`} /></Field>
