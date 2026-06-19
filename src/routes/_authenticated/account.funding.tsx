@@ -34,6 +34,12 @@ function FundingPage() {
   const { t } = useTranslation();
   const { formatCurrency, formatDate } = useFormatters();
   const { invoice: invoiceId, method } = Route.useSearch();
+  useEffect(() => {
+  if (method === "crypto") {
+    setRail("crypto");
+  } else if (method === "bank") {
+    setRail("bank");
+  }}, [method]);
   const [wallets, setWallets] = useState<any[]>([]);
   const [reqs, setReqs] = useState<any[]>([]);
   const [addrs, setAddrs] = useState<any[]>([]);
