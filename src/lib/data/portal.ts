@@ -126,7 +126,10 @@ export async function createCryptoWithdrawal(input: {
 }
 
 export async function getMyCryptoAddresses() {
-  const { data } = await supabase.from("crypto_deposit_addresses").select("*").eq("is_active", true);
+  const { data, error } = await supabase.from("crypto_deposit_addresses").select("*").eq("is_active", true);
+
+  console.log("CRYPTO DATA:", data);
+  console.log("CRYPTO ERROR:", error);
   return data ?? [];
 }
 
