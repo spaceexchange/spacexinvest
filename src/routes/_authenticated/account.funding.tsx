@@ -17,7 +17,9 @@ import { InvoiceCard } from "@/components/invoices/InvoiceCard";
 
 export const Route = createFileRoute("/_authenticated/account/funding")({
   head: () => ({ meta: [{ title: "Funding Center — SpaceX IPO Exchange" }] }),
-  validateSearch: (s: Record<string, unknown>) => ({ invoice: typeof s.invoice === "string" ? s.invoice : undefined }),
+  validateSearch: (s: Record<string, unknown>) => ({
+  invoice: typeof s.invoice === "string" ? s.invoice : undefined,
+  method: typeof s.method === "string" ? s.method : undefined,}),
   component: FundingPage,
 });
 
@@ -31,17 +33,19 @@ const CRYPTOS: { asset: CryptoAsset; network: CryptoNetwork; label: string }[] =
 function FundingPage() {
   const { t } = useTranslation();
   const { formatCurrency, formatDate } = useFormatters();
-  const { invoice: invoiceId } = Route.useSearch();
+  const { invoice: invoiceId, method } = Route.useSearch();
   const [wallets, setWallets] = useState<any[]>([]);
   const [reqs, setReqs] = useState<any[]>([]);
   const [addrs, setAddrs] = useState<any[]>([]);
   const [invoice, setInvoice] = useState<Invoice | null>(null);
-  const [rail, setRail] = useState<"bank" | "crypto">("bank");
+  const [rail, setRail] = useState<"bank" | "crypto">(
+  method === "crypto" ? "crypto" : "bank");
   const [tab, setTab] = useState<"deposit" | "withdrawal">("deposit");
 
   async function refresh() {
     const [w, r, a] = await Promise.all([getMyAllWallets(), getMyFundingRequests(), getMyCryptoAddresses()]);
     setWallets(w); setReqs(r); setAddrs(a);
+    
     if (invoiceId) setInvoice(await getInvoice(invoiceId));
   }
   useEffect(() => { refresh(); }, [invoiceId]);
