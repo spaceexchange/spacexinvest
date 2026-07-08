@@ -34,6 +34,7 @@ function FundingPage() {
   const { t } = useTranslation();
   const { formatCurrency, formatDate } = useFormatters();
   const { invoice: invoiceId, method } = Route.useSearch();
+  console.log("Funding method:", method);
   useEffect(() => {
   if (method === "crypto") {
     setRail("crypto");
