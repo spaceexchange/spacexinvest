@@ -1,0 +1,5 @@
+name = "spacexinvest"
+main = "dist/worker.js"
+compatibility_date = "2026-07-08"
+
+account_id = "e1102d833ed5a3a710d068e812ed5e22"
