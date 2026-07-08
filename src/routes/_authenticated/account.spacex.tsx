@@ -39,7 +39,7 @@ function SpacexPage() {
   const changePct = prev ? (change / prev) * 100 : 0;
   const sharesOwned = Number(holding?.shares ?? 0);
   const avgCost = Number(holding?.average_cost ?? 0);
-  const invested = Number(holding?.total_invested ?? 0);
+  const invested = sharesOwned * avgCost;
   const marketValue = sharesOwned * price;
   const unrealized = marketValue - invested;
   const realized = Number(holding?.realized_pl ?? 0);
