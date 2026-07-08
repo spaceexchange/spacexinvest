@@ -62,7 +62,10 @@ function SpacexPage() {
           toast.success("Order created. Complete payment in the Funding Center.");
           setOpen(null);
           const invId = await getInvoiceForOrder(order.id, "spacex_order");
-          console.log("payMethod:", payMethod);
+          console.log({
+           payMethod,
+           invId,
+          });
           console.log("invoice:", invId);
           navigate({ to: "/account/funding", search: { invoice: invId, method: payMethod } as any });
         }
