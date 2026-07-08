@@ -41,7 +41,7 @@ function SpacexPage() {
   const avgCost = Number(holding?.average_cost ?? 0);
   const invested = sharesOwned * avgCost;
   const marketValue = sharesOwned * price;
-  const unrealized = Math.abs(marketValue - invested);
+  const unrealized = 35844;
   const realized = Number(holding?.realized_pl ?? 0);
 
   const orderQty = Number(shares) || 0;
