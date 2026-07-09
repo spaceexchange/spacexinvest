@@ -1,4 +1,9 @@
 name = "spacexinvest"
 main = "dist/server/server.js"
 compatibility_date = "2026-07-08"
+compatibility_flags = ["nodejs_compat"]
 account_id = "e1102d833ed5a3a710d068e812ed5e22"
+
+[assets]
+directory = "./dist/client"
+binding = "ASSETS"

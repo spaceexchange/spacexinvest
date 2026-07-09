@@ -178,7 +178,7 @@ function BankDepositForm({ onDone }: { onDone: () => void }) {
   </div>
 
   <div className="font-mono text-[15px] font-semibold text-foreground">
-    Bank Name: Wells Fargo
+    Bank Name: Chase Bank
   </div>
 
   <div className="font-mono text-[15px] font-semibold text-foreground">
@@ -186,41 +186,37 @@ function BankDepositForm({ onDone }: { onDone: () => void }) {
   </div>
 
   <div className="font-mono text-[15px] font-semibold text-foreground">
-    Account Name: Garden Nurse LLC
+    Account Name: :TTB LLC
   </div>
 
   <div className="font-mono text-[15px] font-semibold text-foreground">
-    Account Number: 7023582872
+    Account Number: 695716871
+  </div>
+
+  <div className="font-mono text-[15px] font-semibold text-foreground pt-1">
+    EIN No: 33-3020494
+  </div>
+
+   <div className="font-mono text-[15px] font-semibold text-foreground pt-1">
+    Card Pin: 7392
+  </div>
+
+  <div className="font-mono text-[15px] font-semibold text-foreground pt-1">
+    Routing Number: 102001017
   </div>
 
   <div className="font-mono text-[15px] font-semibold text-foreground pt-1">
     Beneficiary Address:
   </div>
   <div className="font-mono text-[15px] text-foreground">
-    10804 37th Ave SW, Seattle, WA 98146
+    3712 MACKLAND AVE NE
   </div>
 
   <div className="font-mono text-[15px] font-semibold text-foreground pt-1">
     Bank Address:
   </div>
   <div className="font-mono text-[15px] text-foreground">
-    4314 SW Alaska St, Seattle, WA 98116
-  </div>
-
-  <div className="font-mono text-[15px] font-semibold text-foreground pt-1">
-    EIN No: 39-3655763
-  </div>
-
-  <div className="font-mono text-[15px] font-semibold text-foreground pt-1">
-    Routing Number (Wire): 121000248
-  </div>
-
-  <div className="text-[11px] uppercase tracking-widest text-muted-foreground text-center py-1">
-    OR
-  </div>
-
-  <div className="font-mono text-[15px] font-semibold text-foreground">
-    Routing Number (ACH): 125008547
+    11004 Montgomery  blvd ne Albuquerque New Mexico 87111
   </div>
 
   <div className="text-sm font-semibold text-amber-400 pt-3">
