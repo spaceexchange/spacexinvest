@@ -21,7 +21,7 @@ CREATE POLICY "spx_quotes_admin" ON public.spacex_quotes FOR ALL USING (has_role
 CREATE TABLE public.spacex_holdings (
   id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
   user_id uuid NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE,
-  symbol text NOT NULL DEFAULT 'SPXI',
+  symbol text NOT NULL DEFAULT 'SPCX',
   shares numeric(18,6) NOT NULL DEFAULT 0,
   average_cost numeric(18,4) NOT NULL DEFAULT 0,
   total_invested numeric(18,2) NOT NULL DEFAULT 0,
@@ -40,7 +40,7 @@ CREATE TRIGGER trg_spx_hold_upd BEFORE UPDATE ON public.spacex_holdings FOR EACH
 CREATE TABLE public.spacex_orders (
   id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
   user_id uuid NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE,
-  symbol text NOT NULL DEFAULT 'SPXI',
+  symbol text NOT NULL DEFAULT 'SPCX',
   side text NOT NULL DEFAULT 'buy' CHECK (side IN ('buy','sell')),
   shares numeric(18,6) NOT NULL CHECK (shares > 0),
   price numeric(18,4) NOT NULL CHECK (price > 0),
@@ -90,13 +90,13 @@ BEGIN
     END IF;
   END IF;
   INSERT INTO public.notifications(user_id,title,message,notification_type,category,metadata)
-  VALUES (NEW.user_id,'SpaceX order filled','You '||NEW.side||' '||NEW.shares||' SPXI @ $'||NEW.price,'system','investment',jsonb_build_object('order_id',NEW.id));
+  VALUES (NEW.user_id,'SpaceX order filled','You '||NEW.side||' '||NEW.shares||' SPCX @ $'||NEW.price,'system','investment',jsonb_build_object('order_id',NEW.id));
   RETURN NEW;
 END $$;
 CREATE TRIGGER trg_apply_spacex_order AFTER INSERT ON public.spacex_orders FOR EACH ROW EXECUTE FUNCTION public.tg_apply_spacex_order();
 
 INSERT INTO public.spacex_quotes(symbol,company_name,price,previous_close,day_high,day_low,week52_high,week52_low,market_cap)
-VALUES ('SPXI','SpaceX Pre-IPO Shares',185.00,182.40,187.20,181.10,210.00,98.50,350000000000);
+VALUES ('SPCX','SpaceX Pre-IPO Shares',185.00,182.40,187.20,181.10,210.00,98.50,350000000000);
 
 -- ============ TESLA VEHICLE MARKETPLACE ============
 CREATE TABLE public.tesla_vehicles (

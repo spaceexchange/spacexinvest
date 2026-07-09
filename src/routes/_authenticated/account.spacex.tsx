@@ -55,9 +55,9 @@ function SpacexPage() {
     setBusy(true);
     try {
       if (open === "buy") {
-        const order: any = await placeBuyOrder(orderQty, price, "SPXI", payMethod);
+        const order: any = await placeBuyOrder(orderQty, price, "SPCX", payMethod);
         if (payMethod === "wallet") {
-          toast.success(`Order filled: buy ${orderQty} SPXI`);
+          toast.success(`Order filled: buy ${orderQty} SPCX`);
           setOpen(null); setShares("1"); reload();
         } else {
           toast.success("Order created. Complete payment in the Funding Center.");
@@ -72,7 +72,7 @@ function SpacexPage() {
         }
       } else {
         await placeSellOrder(orderQty, price);
-        toast.success(`Order filled: sell ${orderQty} SPXI`);
+        toast.success(`Order filled: sell ${orderQty} SPCX`);
         setOpen(null); setShares("1"); reload();
       }
     } catch (e: any) { toast.error(e.message ?? "Order failed"); }
@@ -84,7 +84,7 @@ function SpacexPage() {
       { key: "symbol", label: "Symbol" }, { key: "shares", label: "Shares" },
       { key: "avg", label: "Avg Cost" }, { key: "invested", label: "Invested" },
       { key: "value", label: "Market Value" }, { key: "pl", label: "Unrealized P/L" },
-    ], [{ symbol: "SPXI", shares: sharesOwned, avg: avgCost.toFixed(2), invested: invested.toFixed(2), value: marketValue.toFixed(2), pl: unrealized.toFixed(2) }]);
+    ], [{ symbol: "SPCX", shares: sharesOwned, avg: avgCost.toFixed(2), invested: invested.toFixed(2), value: marketValue.toFixed(2), pl: unrealized.toFixed(2) }]);
   };
 
   const exportHistory = async () => {
@@ -96,11 +96,11 @@ function SpacexPage() {
 
   return (
     <div>
-      <PageHeader title="SpaceX Stock" subtitle="Trade SPXI pre-IPO shares from your investor wallet."
+      <PageHeader title="SpaceX Stock" subtitle="Trade SPCX shares from your investor wallet."
         action={<div className="flex gap-2"><Button onClick={() => setOpen("buy")}><ShoppingCart className="h-4 w-4 mr-1" />Buy</Button>{sharesOwned > 0 && <Button variant="outline" onClick={() => setOpen("sell")}>Sell</Button>}</div>} />
 
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-4 mb-6">
-        <StatCard label="SPXI Price" value={`$${price.toFixed(2)}`} change={changePct} icon={<Rocket className="h-4 w-4" />} />
+        <StatCard label="SPCX Price" value={`$${price.toFixed(2)}`} change={changePct} icon={<Rocket className="h-4 w-4" />} />
         <StatCard label="Shares Owned" value={sharesOwned.toFixed(4)} />
         <StatCard label="Avg Cost" value={`$${avgCost.toFixed(2)}`} />
         <StatCard label="Market Value" value={`$${marketValue.toFixed(2)}`} />
@@ -113,8 +113,8 @@ function SpacexPage() {
         <StatCard label="52W Range" value={`$${Number(quote?.week52_low ?? 0).toFixed(0)}–$${Number(quote?.week52_high ?? 0).toFixed(0)}`} />
       </div>
 
-      <Panel title="SPXI Market Chart" className="mb-6">
-        <StockChart symbol="SPXI" price={price} />
+      <Panel title="SPCX Market Chart" className="mb-6">
+        <StockChart symbol="SPCX" price={price} />
       </Panel>
 
 
@@ -123,7 +123,7 @@ function SpacexPage() {
         {sharesOwned > 0 ? (
           <table className="w-full text-sm">
             <thead><tr className="text-[10px] font-mono tracking-widest text-muted-foreground uppercase border-b border-border"><th className="text-left py-2">Symbol</th><th className="text-right py-2">Shares</th><th className="text-right py-2">Avg</th><th className="text-right py-2">Value</th><th className="text-right py-2">P/L</th></tr></thead>
-            <tbody><tr><td className="py-2 font-mono">SPXI</td><td className="text-right">{sharesOwned.toFixed(4)}</td><td className="text-right">${avgCost.toFixed(2)}</td><td className="text-right">${marketValue.toFixed(2)}</td><td className={`text-right ${unrealized >= 0 ? "text-emerald-400" : "text-red-400"}`}>${unrealized.toFixed(2)}</td></tr></tbody>
+            <tbody><tr><td className="py-2 font-mono">SPCX</td><td className="text-right">{sharesOwned.toFixed(4)}</td><td className="text-right">${avgCost.toFixed(2)}</td><td className="text-right">${marketValue.toFixed(2)}</td><td className={`text-right ${unrealized >= 0 ? "text-emerald-400" : "text-red-400"}`}>${unrealized.toFixed(2)}</td></tr></tbody>
           </table>
         ) : <p className="text-sm text-muted-foreground">You don't own any SpaceX shares yet.</p>}
       </Panel>
@@ -152,7 +152,7 @@ function SpacexPage() {
 
       <Dialog open={open !== null} onOpenChange={(o) => !o && setOpen(null)}>
         <DialogContent>
-          <DialogHeader><DialogTitle>{open === "buy" ? "Buy" : "Sell"} SPXI</DialogTitle></DialogHeader>
+          <DialogHeader><DialogTitle>{open === "buy" ? "Buy" : "Sell"} SPCX</DialogTitle></DialogHeader>
           <div className="space-y-3">
             <div>
               <label className="text-xs text-muted-foreground">Shares</label>

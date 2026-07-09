@@ -92,7 +92,7 @@ BEGIN
     WHERE source_type='spacex_order' AND source_id=NEW.id AND status <> 'paid';
 
   INSERT INTO public.notifications(user_id,title,message,notification_type,category,metadata)
-  VALUES (NEW.user_id,'SpaceX order filled','You '||NEW.side||' '||NEW.shares||' SPXI @ $'||NEW.price,'system','investment',jsonb_build_object('order_id',NEW.id));
+  VALUES (NEW.user_id,'SpaceX order filled','You '||NEW.side||' '||NEW.shares||' SPCX @ $'||NEW.price,'system','investment',jsonb_build_object('order_id',NEW.id));
   RETURN NEW;
 END $function$;
 

@@ -1,7 +1,7 @@
 // SpaceX Stock Center data layer (mirror of Tesla — Mission 5b).
 import { supabase } from "@/integrations/supabase/client";
 
-const SYM = "SPXI";
+const SYM = "SPCX";
 
 async function uid(): Promise<string> {
   const { data } = await supabase.auth.getUser();

@@ -29,16 +29,16 @@ function AdminSpacex() {
   const updatePrice = async () => {
     const p = Number(price);
     if (!p || p <= 0) return;
-    try { await adminUpdateQuote("SPXI", { price: p, previous_close: quote?.price ?? p }); toast.success("Quote updated"); reload(); }
+    try { await adminUpdateQuote("SPCX", { price: p, previous_close: quote?.price ?? p }); toast.success("Quote updated"); reload(); }
     catch (e: any) { toast.error(e.message); }
   };
 
   return (
     <div>
-      <PageHeader eyebrow="MARKETS" title="SpaceX Stock Operations" subtitle="Manage SPXI quotes, orders, and investor positions." />
+      <PageHeader eyebrow="MARKETS" title="SpaceX Stock Operations" subtitle="Manage SPCX quotes, orders, and investor positions." />
 
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-4 mb-6">
-        <StatCard label="SPXI Quote" value={`$${Number(quote?.price ?? 0).toFixed(2)}`} icon={<Rocket className="h-4 w-4" />} />
+        <StatCard label="SPCX Quote" value={`$${Number(quote?.price ?? 0).toFixed(2)}`} icon={<Rocket className="h-4 w-4" />} />
         <StatCard label="Holders" value={holdings.length} />
         <StatCard label="Total Shares" value={totalShares.toFixed(2)} />
         <StatCard label="Capital Deployed" value={`$${totalInvested.toLocaleString(undefined, { maximumFractionDigits: 0 })}`} />
@@ -47,7 +47,7 @@ function AdminSpacex() {
       <Panel title="Quote Control" className="mb-6">
         <div className="flex gap-3 items-end max-w-md">
           <div className="flex-1">
-            <label className="text-xs text-muted-foreground">SPXI Price</label>
+            <label className="text-xs text-muted-foreground">SPCX Price</label>
             <input type="number" step="0.01" className={inputCls + " w-full"} value={price} onChange={(e) => setPrice(e.target.value)} />
           </div>
           <button className={btnSecondary} onClick={updatePrice}>Update</button>

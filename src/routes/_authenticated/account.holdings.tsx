@@ -52,8 +52,8 @@ function HoldingsPage() {
   const totalPL = totalVal - totalInv;
   const totalPct = totalInv ? (totalPL / totalInv) * 100 : 0;
 
-  const best = tPL >= sPL ? { name: "Tesla (TSLA)", pl: tPL } : { name: "SpaceX (SPXI)", pl: sPL };
-  const worst = tPL <= sPL ? { name: "Tesla (TSLA)", pl: tPL } : { name: "SpaceX (SPXI)", pl: sPL };
+  const best = tPL >= sPL ? { name: "Tesla (TSLA)", pl: tPL } : { name: "SpaceX (SPCX)", pl: sPL };
+  const worst = tPL <= sPL ? { name: "Tesla (TSLA)", pl: tPL } : { name: "SpaceX (SPCX)", pl: sPL };
 
   const timeline = (() => {
     type Row = { t: number; tesla: number; spacex: number; total: number };
@@ -87,7 +87,7 @@ function HoldingsPage() {
       { key: "price", label: "Price" }, { key: "invested", label: "Invested" }, { key: "value", label: "Value" }, { key: "pl", label: "P/L" },
     ], [
       { symbol: "TSLA", shares: tShares, avg: Number(tHold?.average_cost ?? 0).toFixed(2), price: tPrice.toFixed(2), invested: tInv.toFixed(2), value: tVal.toFixed(2), pl: tPL.toFixed(2) },
-      { symbol: "SPXI", shares: sShares, avg: Number(sHold?.average_cost ?? 0).toFixed(2), price: sPrice.toFixed(2), invested: sInv.toFixed(2), value: sVal.toFixed(2), pl: sPL.toFixed(2) },
+      { symbol: "SPCX", shares: sShares, avg: Number(sHold?.average_cost ?? 0).toFixed(2), price: sPrice.toFixed(2), invested: sInv.toFixed(2), value: sVal.toFixed(2), pl: sPL.toFixed(2) },
     ]);
   };
 
@@ -157,7 +157,7 @@ function HoldingsPage() {
 
         <HoldingCard className="lg:col-span-1" name="Tesla (TSLA)" icon={<TrendingUp className="h-4 w-4" />} to="/account/tesla"
           shares={tShares} avg={Number(tHold?.average_cost ?? 0)} price={tPrice} value={tVal} invested={tInv} pl={tPL} />
-        <HoldingCard className="lg:col-span-1" name="SpaceX (SPXI)" icon={<Rocket className="h-4 w-4" />} to="/account/spacex"
+        <HoldingCard className="lg:col-span-1" name="SpaceX (SPCX)" icon={<Rocket className="h-4 w-4" />} to="/account/spacex"
           shares={sShares} avg={Number(sHold?.average_cost ?? 0)} price={sPrice} value={sVal} invested={sInv} pl={sPL} />
       </div>
 
@@ -169,7 +169,7 @@ function HoldingsPage() {
               <th className="text-right">{t("holdings.cols.shares")}</th><th className="text-right">{t("holdings.cols.price")}</th><th className="text-right">{t("holdings.cols.amount")}</th><th className="text-left pl-3">{t("holdings.cols.status")}</th>
             </tr></thead>
             <tbody className="divide-y divide-border/60">
-              {[...tOrders.map((o) => ({ ...o, asset: "TSLA" })), ...sOrders.map((o) => ({ ...o, asset: "SPXI" }))]
+              {[...tOrders.map((o) => ({ ...o, asset: "TSLA" })), ...sOrders.map((o) => ({ ...o, asset: "SPCX" }))]
                 .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime()).slice(0, 30)
                 .map((o) => (
                   <tr key={`${o.asset}-${o.id}`}>
