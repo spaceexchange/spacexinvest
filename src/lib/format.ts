@@ -44,12 +44,12 @@ export function buildFormatters(language: string, country?: string): Formatters 
     currency,
     formatNumber: (n, opts) => new Intl.NumberFormat(locale, opts).format(n),
     formatCurrency: (n, cur, opts) =>
-      new Intl.NumberFormat(locale, {
-        style: "currency",
-        currency: cur || currency,
-        maximumFractionDigits: 2,
-        ...opts,
-      }).format(n),
+  new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+    maximumFractionDigits: 2,
+    ...opts,
+  }).format(n),
     formatPercent: (n, fractionDigits = 2) =>
       new Intl.NumberFormat(locale, {
         style: "percent",
